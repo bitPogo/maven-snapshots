@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "cb93735",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-cb93735.jar",
+          "url": "antibytes-coverage-cb93735.jar",
+          "size": 128039,
+          "sha512": "d4bc4f7e93532f78164edabb391a042692cc2ba4959404703a8ec92c276819a538f27e30b41065819399a0f804b0431fa7911642aebf9db7cae7cb771d4332c4",
+          "sha256": "ae3d94e85e80d3840457b1799cded78aa42baa7e1326404420353d95f96c235b",
+          "sha1": "afbd6864aafe98f6d5717ebfeb7442768f4514b4",
+          "md5": "07c23c02f50cce25de3bd315150a8374"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-cb93735.jar",
+          "url": "antibytes-coverage-cb93735.jar",
+          "size": 128039,
+          "sha512": "d4bc4f7e93532f78164edabb391a042692cc2ba4959404703a8ec92c276819a538f27e30b41065819399a0f804b0431fa7911642aebf9db7cae7cb771d4332c4",
+          "sha256": "ae3d94e85e80d3840457b1799cded78aa42baa7e1326404420353d95f96c235b",
+          "sha1": "afbd6864aafe98f6d5717ebfeb7442768f4514b4",
+          "md5": "07c23c02f50cce25de3bd315150a8374"
+        }
+      ]
+    }
+  ]
+}
