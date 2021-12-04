@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-jflex",
+    "version": "bca8447",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-jflex-bca8447.jar",
+          "url": "antibytes-jflex-bca8447.jar",
+          "size": 21346,
+          "sha512": "0075c802f7b0f4b1d4aeab7bec0047387c4a204e9fbb19a12960c842db231bda80ba822a20a4353e995ac4122ffa10b1363a28e4c56886ad6f31e2df79c0379f",
+          "sha256": "2e60399e14af4d17ef0c31eda96db0b62dd4b20061f4a37999c94beba30e1a35",
+          "sha1": "2e54918e72c528f6b6ecd4746d76fe436edab1ea",
+          "md5": "002606d0f62045872d772d9732ccd730"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "de.jflex",
+          "module": "jflex",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-jflex-bca8447.jar",
+          "url": "antibytes-jflex-bca8447.jar",
+          "size": 21346,
+          "sha512": "0075c802f7b0f4b1d4aeab7bec0047387c4a204e9fbb19a12960c842db231bda80ba822a20a4353e995ac4122ffa10b1363a28e4c56886ad6f31e2df79c0379f",
+          "sha256": "2e60399e14af4d17ef0c31eda96db0b62dd4b20061f4a37999c94beba30e1a35",
+          "sha1": "2e54918e72c528f6b6ecd4746d76fe436edab1ea",
+          "md5": "002606d0f62045872d772d9732ccd730"
+        }
+      ]
+    }
+  ]
+}
