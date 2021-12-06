@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-coverage",
+    "version": "99646d5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-99646d5.jar",
+          "url": "antibytes-coverage-99646d5.jar",
+          "size": 122599,
+          "sha512": "e96710b0299f4acf2e53cb81c1345eb81a130224e68eb5be97233be9f5ba5d24a8e9da87348c28c9755917a712166694d5d0ad014e544159e255d182d03a2643",
+          "sha256": "c1605326ec13c0f0ac8c7d7027eba006225cd40933a10f671cb4304ef04af516",
+          "sha1": "a5a686d119299bf0b55c3412d87b6eaf1cce8cdb",
+          "md5": "a54d415083340a9b09433f7b156961a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "99646d5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-99646d5.jar",
+          "url": "antibytes-coverage-99646d5.jar",
+          "size": 122599,
+          "sha512": "e96710b0299f4acf2e53cb81c1345eb81a130224e68eb5be97233be9f5ba5d24a8e9da87348c28c9755917a712166694d5d0ad014e544159e255d182d03a2643",
+          "sha256": "c1605326ec13c0f0ac8c7d7027eba006225cd40933a10f671cb4304ef04af516",
+          "sha1": "a5a686d119299bf0b55c3412d87b6eaf1cce8cdb",
+          "md5": "a54d415083340a9b09433f7b156961a7"
+        }
+      ]
+    }
+  ]
+}
