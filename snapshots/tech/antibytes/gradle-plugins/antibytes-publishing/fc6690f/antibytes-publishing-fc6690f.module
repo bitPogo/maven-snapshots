@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-publishing",
+    "version": "fc6690f",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-fc6690f.jar",
+          "url": "antibytes-publishing-fc6690f.jar",
+          "size": 105775,
+          "sha512": "ed1cd17d498ab86bed0e8faf5a06d6bf1c74c683090b4eef712e9bb3fe59c524b6e721665e92bde3895ef30ea5391aa8a2bfb4bc37f3814fb91fdfdd78897f39",
+          "sha256": "0ac4269bafa3f12793a1e4fac80ee4515240eb1f4a2b6fa4c942134d74a1bf33",
+          "sha1": "090ff91db4315e599149ea3afeba2c743508accb",
+          "md5": "ab8c98377fdb57861d9042d2b579517d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.0.0.202111291000-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.12.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fc6690f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-fc6690f.jar",
+          "url": "antibytes-publishing-fc6690f.jar",
+          "size": 105775,
+          "sha512": "ed1cd17d498ab86bed0e8faf5a06d6bf1c74c683090b4eef712e9bb3fe59c524b6e721665e92bde3895ef30ea5391aa8a2bfb4bc37f3814fb91fdfdd78897f39",
+          "sha256": "0ac4269bafa3f12793a1e4fac80ee4515240eb1f4a2b6fa4c942134d74a1bf33",
+          "sha1": "090ff91db4315e599149ea3afeba2c743508accb",
+          "md5": "ab8c98377fdb57861d9042d2b579517d"
+        }
+      ]
+    }
+  ]
+}
