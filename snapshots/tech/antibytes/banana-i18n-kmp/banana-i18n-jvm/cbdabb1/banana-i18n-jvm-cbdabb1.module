@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../banana-i18n/cbdabb1/banana-i18n-cbdabb1.module",
+    "group": "tech.antibytes.banana-i18n-kmp",
+    "module": "banana-i18n",
+    "version": "cbdabb1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-cbdabb1.jar",
+          "size": 171534,
+          "sha512": "f19b9f3ff84338e597c2e0d240f3e2819db72774ef5928b3f5d7f06184dcbd65e7b5cec51ad60d04d96f5ce973ba8b5f00adc225c2593e437b717c579965a62b",
+          "sha256": "be30ebea06016ba6c4bfc42cf0ec65860ff123fb1aecde0ef516b69d76b71105",
+          "sha1": "22d5c13307a8f937c14d76b7ddc77ce7727d5428",
+          "md5": "a70b00ff5fe378cd90c0333e1ff27311"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-cbdabb1.jar",
+          "size": 171534,
+          "sha512": "f19b9f3ff84338e597c2e0d240f3e2819db72774ef5928b3f5d7f06184dcbd65e7b5cec51ad60d04d96f5ce973ba8b5f00adc225c2593e437b717c579965a62b",
+          "sha256": "be30ebea06016ba6c4bfc42cf0ec65860ff123fb1aecde0ef516b69d76b71105",
+          "sha1": "22d5c13307a8f937c14d76b7ddc77ce7727d5428",
+          "md5": "a70b00ff5fe378cd90c0333e1ff27311"
+        }
+      ]
+    }
+  ]
+}
