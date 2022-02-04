@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../banana-i18n/e3dd75b/banana-i18n-e3dd75b.module",
+    "group": "tech.antibytes.banana-i18n-kmp",
+    "module": "banana-i18n",
+    "version": "e3dd75b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "banana-i18n-release.aar",
+          "url": "banana-i18n-android-e3dd75b.aar",
+          "size": 154065,
+          "sha512": "028725d993a21c26d82a6cf3296b113806c1cba2a682bc8dca9f7d2a004426fb89b4c2422f95c905f85aa6c5e58090af296f7538dea90c484ffe7c1857b93266",
+          "sha256": "645196208e282cb7a535f67b87617d62e083f95e90e3d2230c6c244e50f7baf7",
+          "sha1": "180ff8dc11d1605b4014bd64145e91a944a271f2",
+          "md5": "3fcf47e81779fa55a9837a71fd67c162"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "banana-i18n-release.aar",
+          "url": "banana-i18n-android-e3dd75b.aar",
+          "size": 154065,
+          "sha512": "028725d993a21c26d82a6cf3296b113806c1cba2a682bc8dca9f7d2a004426fb89b4c2422f95c905f85aa6c5e58090af296f7538dea90c484ffe7c1857b93266",
+          "sha256": "645196208e282cb7a535f67b87617d62e083f95e90e3d2230c6c244e50f7baf7",
+          "sha1": "180ff8dc11d1605b4014bd64145e91a944a271f2",
+          "md5": "3fcf47e81779fa55a9837a71fd67c162"
+        }
+      ]
+    }
+  ]
+}
