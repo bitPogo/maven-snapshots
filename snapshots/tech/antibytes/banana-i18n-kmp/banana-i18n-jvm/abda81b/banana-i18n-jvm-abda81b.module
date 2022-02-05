@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../banana-i18n/abda81b/banana-i18n-abda81b.module",
+    "group": "tech.antibytes.banana-i18n-kmp",
+    "module": "banana-i18n",
+    "version": "abda81b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-abda81b.jar",
+          "size": 171534,
+          "sha512": "c10c7879f6e06cacff3bf21d20df665c6247d697ecf2879eabbaac754c7bf223e960743fe98d9b34ce3124923eae3b27f2af8368f3452ac10acdcd2f9676cf10",
+          "sha256": "b1cdcc9ace1d7c83c4803933a78087570263cdb2c1e43b523f99adf22f49a736",
+          "sha1": "f5ffd2bd1d34aeb59a4a9c15f15f0cdd8af4c5fb",
+          "md5": "9e7bcda665788845ccea9eceeb1f3445"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "banana-i18n-jvm.jar",
+          "url": "banana-i18n-jvm-abda81b.jar",
+          "size": 171534,
+          "sha512": "c10c7879f6e06cacff3bf21d20df665c6247d697ecf2879eabbaac754c7bf223e960743fe98d9b34ce3124923eae3b27f2af8368f3452ac10acdcd2f9676cf10",
+          "sha256": "b1cdcc9ace1d7c83c4803933a78087570263cdb2c1e43b523f99adf22f49a736",
+          "sha1": "f5ffd2bd1d34aeb59a4a9c15f15f0cdd8af4c5fb",
+          "md5": "9e7bcda665788845ccea9eceeb1f3445"
+        }
+      ]
+    }
+  ]
+}
