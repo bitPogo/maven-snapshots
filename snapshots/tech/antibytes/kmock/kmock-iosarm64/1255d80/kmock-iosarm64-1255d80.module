@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/1255d80/kmock-1255d80.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "1255d80",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.test-utils-kmp",
+          "module": "test-utils",
+          "version": {
+            "requires": "7b11c9d-add-ios-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iosarm64-1255d80.klib",
+          "size": 67775,
+          "sha512": "1cad6e907f0cf0c300396aedbea2931d2e559bf330080845e947249d2cc17380a07c7c737078bba706c2910af51e2f4dd2a9279adf6b9b98bdd0554dac3e10e6",
+          "sha256": "e1d1baa8cc4ef6e7f9285a4b33cfa6483e9b04a0834fe6e8219b26e5b787f41e",
+          "sha1": "38f436640741bd58936d7d84ccff915acd14e5f1",
+          "md5": "977c9440386b3e7e279c38a8ca5cb538"
+        }
+      ]
+    }
+  ]
+}
