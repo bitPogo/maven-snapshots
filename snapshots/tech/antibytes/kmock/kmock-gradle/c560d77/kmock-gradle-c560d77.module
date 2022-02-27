@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-gradle",
+    "version": "c560d77",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-gradle-c560d77.jar",
+          "url": "kmock-gradle-c560d77.jar",
+          "size": 42830,
+          "sha512": "4fb654cea743658981d8a6a1babad5185785b57ffc6695fc152cf3821fdd5cec68fb2db6792000f6996951d2d5b736b91bbc3782786b5eaa4431b9fc6c2379f3",
+          "sha256": "cd738f69a504973f730a37233071ce18abc295097435dd85c6e1b0e0629cad04",
+          "sha1": "b7eed25449e559a80c460058ff40d7d8d28b0489",
+          "md5": "280bb00aaa81c8472ba507372cbba826"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ed855ae"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-gradle-c560d77.jar",
+          "url": "kmock-gradle-c560d77.jar",
+          "size": 42830,
+          "sha512": "4fb654cea743658981d8a6a1babad5185785b57ffc6695fc152cf3821fdd5cec68fb2db6792000f6996951d2d5b736b91bbc3782786b5eaa4431b9fc6c2379f3",
+          "sha256": "cd738f69a504973f730a37233071ce18abc295097435dd85c6e1b0e0629cad04",
+          "sha1": "b7eed25449e559a80c460058ff40d7d8d28b0489",
+          "md5": "280bb00aaa81c8472ba507372cbba826"
+        }
+      ]
+    }
+  ]
+}
