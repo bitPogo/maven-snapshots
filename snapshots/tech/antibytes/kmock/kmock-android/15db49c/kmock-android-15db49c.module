@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/15db49c/kmock-15db49c.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "15db49c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kmock-release.aar",
+          "url": "kmock-android-15db49c.aar",
+          "size": 178473,
+          "sha512": "2072757595ab1ee209cae8e97bbd7e6f72ad7c678e4159954be09dfc4919eeb1b253b4becf92863afd956666780979f59c37d258659a951c3a8ed5dd83af84d5",
+          "sha256": "27ff343302a0a000899042329568336930b0c587470dc8a28a2727246827fb65",
+          "sha1": "00ceb470b3e64b01bc98a3a6970e6146bfa0b749",
+          "md5": "cdec87eea3d5f141476d0f00820a07b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-release.aar",
+          "url": "kmock-android-15db49c.aar",
+          "size": 178473,
+          "sha512": "2072757595ab1ee209cae8e97bbd7e6f72ad7c678e4159954be09dfc4919eeb1b253b4becf92863afd956666780979f59c37d258659a951c3a8ed5dd83af84d5",
+          "sha256": "27ff343302a0a000899042329568336930b0c587470dc8a28a2727246827fb65",
+          "sha1": "00ceb470b3e64b01bc98a3a6970e6146bfa0b749",
+          "md5": "cdec87eea3d5f141476d0f00820a07b7"
+        }
+      ]
+    }
+  ]
+}
