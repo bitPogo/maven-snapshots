@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/9294166/test-utils-coroutine-9294166.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "9294166",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-coroutine-release.aar",
+          "url": "test-utils-coroutine-android-9294166.aar",
+          "size": 11208,
+          "sha512": "6604d5ba1a17bb776b330fe0d44234f605a82e218aaf0d6e479f5f3ffa1d7c9878c0a00bd0a901f4ec4b7228a59ee1884719229375736cdb4f921f2f40864591",
+          "sha256": "77b8fc80eb2e99850dd7ee3ead528e2b923c045c7accdb828b4c9b75b9e64342",
+          "sha1": "a7569bf84c0d45e845b18d4d40b0e0e390e2d37c",
+          "md5": "01925817f24b2176e0476323429b4a37"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0-native-mt"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-release.aar",
+          "url": "test-utils-coroutine-android-9294166.aar",
+          "size": 11208,
+          "sha512": "6604d5ba1a17bb776b330fe0d44234f605a82e218aaf0d6e479f5f3ffa1d7c9878c0a00bd0a901f4ec4b7228a59ee1884719229375736cdb4f921f2f40864591",
+          "sha256": "77b8fc80eb2e99850dd7ee3ead528e2b923c045c7accdb828b4c9b75b9e64342",
+          "sha1": "a7569bf84c0d45e845b18d4d40b0e0e390e2d37c",
+          "md5": "01925817f24b2176e0476323429b4a37"
+        }
+      ]
+    }
+  ]
+}
