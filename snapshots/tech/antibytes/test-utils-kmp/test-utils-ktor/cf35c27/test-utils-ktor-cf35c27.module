@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "cf35c27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-metadata-cf35c27-all.jar",
+          "url": "test-utils-ktor-cf35c27-all.jar",
+          "size": 5156,
+          "sha512": "fba82730c3de3904040a0a256a47509f59a2af16d1ce8d5b95b08412828e5e2ab1e3211310317b1ecb8352536762eea033c0f8d5b631905f250601edcfbecef8",
+          "sha256": "b324878888fc60101666b2796c2fef3008d510918cc5cba64f12f8326ab87317",
+          "sha1": "12f951901a4c2024dfd7c36b43610c717e95746f",
+          "md5": "e79d9dde63bfa39e8633219a9fe4315a"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-cf35c27.jar",
+          "url": "test-utils-ktor-cf35c27.jar",
+          "size": 2501,
+          "sha512": "972ded4f35615f6704641b7dbc39683ef3f151b3c7d401b712ea16ca8faf3925dbe4714e1d12e09227feb14271b1d965027a43ddd966f0265a70e33356e5c8f3",
+          "sha256": "0c8ca8bec2cf767590120c4da3405a611b8303d0799d67e0bf122a50f7824299",
+          "sha1": "96badd25145ca317ee107189d908a1aa86511edd",
+          "md5": "57cb71498e349179cd69b237f8ce9c7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-android/cf35c27/test-utils-ktor-android-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-android",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-android/cf35c27/test-utils-ktor-android-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-android",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosarm64/cf35c27/test-utils-ktor-iosarm64-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosarm64",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosarm64/cf35c27/test-utils-ktor-iosarm64-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosarm64",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosx64/cf35c27/test-utils-ktor-iosx64-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosx64",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-iosx64/cf35c27/test-utils-ktor-iosx64-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-iosx64",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-js/cf35c27/test-utils-ktor-js-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-js",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-js/cf35c27/test-utils-ktor-js-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-js",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-jvm/cf35c27/test-utils-ktor-jvm-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-jvm",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-jvm/cf35c27/test-utils-ktor-jvm-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-jvm",
+        "version": "cf35c27"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-ktor-linuxx64/cf35c27/test-utils-ktor-linuxx64-cf35c27.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-ktor-linuxx64",
+        "version": "cf35c27"
+      }
+    }
+  ]
+}
