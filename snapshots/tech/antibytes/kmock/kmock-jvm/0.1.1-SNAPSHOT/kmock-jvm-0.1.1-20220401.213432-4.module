@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.1.1-SNAPSHOT/kmock-0.1.1-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kmock-jvm-0.1.1-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.1.1-SNAPSHOT.jar",
+          "size": 292415,
+          "sha512": "833c943a2e2f21c9d89ee6333e2f3c142747fa9bd0323a4a750ccac14c82e49384a7bb1e1795ef60a6f6bc64b88e6746b679d88ff184c7c2402817ec00e9ed73",
+          "sha256": "bcb74f083d3a2365ca41d0d8490c9d73f0ee20ee6ce22780494a22689c481ddf",
+          "sha1": "4d5c8819a95d53233a42a8ab0e14883381618d71",
+          "md5": "2e80c81d11b951a97143e30ded45d891"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-jvm-0.1.1-SNAPSHOT.jar",
+          "url": "kmock-jvm-0.1.1-SNAPSHOT.jar",
+          "size": 292415,
+          "sha512": "833c943a2e2f21c9d89ee6333e2f3c142747fa9bd0323a4a750ccac14c82e49384a7bb1e1795ef60a6f6bc64b88e6746b679d88ff184c7c2402817ec00e9ed73",
+          "sha256": "bcb74f083d3a2365ca41d0d8490c9d73f0ee20ee6ce22780494a22689c481ddf",
+          "sha1": "4d5c8819a95d53233a42a8ab0e14883381618d71",
+          "md5": "2e80c81d11b951a97143e30ded45d891"
+        }
+      ]
+    }
+  ]
+}
