@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock-processor",
+    "version": "0.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-SNAPSHOT.jar",
+          "size": 156239,
+          "sha512": "6efe99b4160b92e6f36760860e5b5950dc0243e023c8fdc9bf0e1f507935e79d56915fa3d562b33197b6044814b4bc1dfbf1e2abfbe7efa5491c28d31136d066",
+          "sha256": "0fa2e8f9770dd2bce8c08eeb0d718ea00c90e9c025d96b57b31cac1ec6d2d3ab",
+          "sha1": "0efe48426ab28c9f5b0c9ccba1c89f2f8c70c38a",
+          "md5": "27f61aa36b35fc35896ab6fb7758d67c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.4"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kmock",
+          "module": "kmock",
+          "version": {
+            "requires": "0.1.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-processor-0.1.1-SNAPSHOT.jar",
+          "url": "kmock-processor-0.1.1-SNAPSHOT.jar",
+          "size": 156239,
+          "sha512": "6efe99b4160b92e6f36760860e5b5950dc0243e023c8fdc9bf0e1f507935e79d56915fa3d562b33197b6044814b4bc1dfbf1e2abfbe7efa5491c28d31136d066",
+          "sha256": "0fa2e8f9770dd2bce8c08eeb0d718ea00c90e9c025d96b57b31cac1ec6d2d3ab",
+          "sha1": "0efe48426ab28c9f5b0c9ccba1c89f2f8c70c38a",
+          "md5": "27f61aa36b35fc35896ab6fb7758d67c"
+        }
+      ]
+    }
+  ]
+}
