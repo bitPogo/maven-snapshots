@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/5238ed6/test-utils-ktor-5238ed6.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "5238ed6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-5238ed6.jar",
+          "url": "test-utils-ktor-jvm-5238ed6.jar",
+          "size": 26407,
+          "sha512": "4adc99f91a6785de9f4c276d546fdbf435ae685045365ce97193203d53861935fb50ff88dbf2c7786dc074416566538d3de93ca08396bbd99a4b8ef9b384c0be",
+          "sha256": "a26580cfa6008dfe1717360f32fb734b809044d13a5341e25948c3689996e4ec",
+          "sha1": "335ca9f054f0ffda278bf2a371a7d08d435aaefe",
+          "md5": "704e0cc0b2d656acd50dc2e33a06f2f3"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java",
+          "version": {
+            "requires": "1.6.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-5238ed6.jar",
+          "url": "test-utils-ktor-jvm-5238ed6.jar",
+          "size": 26407,
+          "sha512": "4adc99f91a6785de9f4c276d546fdbf435ae685045365ce97193203d53861935fb50ff88dbf2c7786dc074416566538d3de93ca08396bbd99a4b8ef9b384c0be",
+          "sha256": "a26580cfa6008dfe1717360f32fb734b809044d13a5341e25948c3689996e4ec",
+          "sha1": "335ca9f054f0ffda278bf2a371a7d08d435aaefe",
+          "md5": "704e0cc0b2d656acd50dc2e33a06f2f3"
+        }
+      ]
+    }
+  ]
+}
