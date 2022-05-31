@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fixture/85c7d84/fixture-85c7d84.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "fixture",
+    "version": "85c7d84",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fixture-release.aar",
+          "url": "fixture-android-85c7d84.aar",
+          "size": 58748,
+          "sha512": "4a102771aa924b44943c52b4da7844c3a58a649bdb90474362b4faa538ab5f3946910b08feb65b0e612ff60d9da90d63a755f2ca8760b9bd56d8a316fbefac4c",
+          "sha256": "96f4496ff074d1495b8f687eb6b290a37a53c7f14751a413cd69d8809cf038b7",
+          "sha1": "1baec68f9a78117b953de8a31dc5e976a3bccaa5",
+          "md5": "7985a5c73ad3f8b6ed1db93bcc017895"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "fixture-release.aar",
+          "url": "fixture-android-85c7d84.aar",
+          "size": 58748,
+          "sha512": "4a102771aa924b44943c52b4da7844c3a58a649bdb90474362b4faa538ab5f3946910b08feb65b0e612ff60d9da90d63a755f2ca8760b9bd56d8a316fbefac4c",
+          "sha256": "96f4496ff074d1495b8f687eb6b290a37a53c7f14751a413cd69d8809cf038b7",
+          "sha1": "1baec68f9a78117b953de8a31dc5e976a3bccaa5",
+          "md5": "7985a5c73ad3f8b6ed1db93bcc017895"
+        }
+      ]
+    }
+  ]
+}
