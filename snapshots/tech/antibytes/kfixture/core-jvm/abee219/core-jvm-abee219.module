@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/abee219/core-abee219.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "abee219",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-abee219.jar",
+          "url": "core-jvm-abee219.jar",
+          "size": 101337,
+          "sha512": "5e0cd4bd91c8e06d8267796360579411dd22738a4d71d4059122480132dc1d8ba5f49390ad31390189112649f515c01308aee4fcdb0d81ef4db6824cb5e9917b",
+          "sha256": "1775b3ce734fb8edc68f1f1954e0135d6ec845deb152c7209abbc3e96e252ad0",
+          "sha1": "8483ac202f35f147d52adc8e36173aafabbabc3a",
+          "md5": "7fafcc8f731c9691ad8960971258bafc"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-abee219.jar",
+          "url": "core-jvm-abee219.jar",
+          "size": 101337,
+          "sha512": "5e0cd4bd91c8e06d8267796360579411dd22738a4d71d4059122480132dc1d8ba5f49390ad31390189112649f515c01308aee4fcdb0d81ef4db6824cb5e9917b",
+          "sha256": "1775b3ce734fb8edc68f1f1954e0135d6ec845deb152c7209abbc3e96e252ad0",
+          "sha1": "8483ac202f35f147d52adc8e36173aafabbabc3a",
+          "md5": "7fafcc8f731c9691ad8960971258bafc"
+        }
+      ]
+    }
+  ]
+}
