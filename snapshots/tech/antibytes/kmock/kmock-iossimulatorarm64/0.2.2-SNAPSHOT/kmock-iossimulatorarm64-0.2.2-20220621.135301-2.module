@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.2.2-SNAPSHOT/kmock-0.2.2-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.2.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-iossimulatorarm64-0.2.2-SNAPSHOT.klib",
+          "size": 202924,
+          "sha512": "a3c7fb41fd5a044e3b65a768aa226a2359e2a1e830fdc07f001e399cd8685fc9efecfa9fc01098d938c861cfd95bd8e69ca1d131b42842e1ae3f7e58b6e42778",
+          "sha256": "a9914f7acdcd8ce3c68e1fba0a901e73a8f2b9dd1488c0b9901386de489bc94b",
+          "sha1": "70bd7022cd54cbe1d0ac3ecc06797be299bb6652",
+          "md5": "6727871b0342fcc2ca3285f59a46cd6e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-iossimulatorarm64-0.2.2-SNAPSHOT-metadata.jar",
+          "url": "kmock-iossimulatorarm64-0.2.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "cbefe4ec89a81bc74ec0831356dbbd8728be37874bcabff8d2e2c7ce47faff7be34fe66c63f5866cedb45cd81d42baeb30b35773931b6dbc50a193dae226dcc6",
+          "sha256": "8b45f5e4bf272839df338e071dbfbcf9052ceb179bd2354189868a5d88481b78",
+          "sha1": "4a299bcfbda932d90e21cca9817afdd335c5809b",
+          "md5": "bd347a43204351b660400621ac275319"
+        }
+      ]
+    }
+  ]
+}
