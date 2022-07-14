@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc02-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.3"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-metadata-0.3.0-rc02-SNAPSHOT-all.jar",
+          "url": "kmock-0.3.0-rc02-SNAPSHOT-all.jar",
+          "size": 28436,
+          "sha512": "27a5cb4341b92c99bbb9987256407c893d51a350925172a31b55260ff6e078742abd6b4fb1f4ac67a7eb3c8bd775fc2fcb4f56884be216cf987b076706e87f30",
+          "sha256": "5565b4ad8bd4273355d2711d9eb4dfc6285791d60d47c19f3b134566e3741769",
+          "sha1": "043f5f1a998c71d5b82391b3f734dd41a9e504e6",
+          "md5": "472510c42efd458a6b2af2aa998833d3"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kmock-0.3.0-rc02-SNAPSHOT.jar",
+          "url": "kmock-0.3.0-rc02-SNAPSHOT.jar",
+          "size": 47914,
+          "sha512": "9c6cd29f4e7e6ada8b4f8f513a0216db45170bccfa4f46143493021fcbedea1aa812c34b2fbe4200c147c5ba6c0634d61053d045e8cd1eed8b568e69953a891d",
+          "sha256": "06620d3e8e85a4f585790d823a30296246fb9e2c689058786d106623265a969c",
+          "sha1": "18ddfa9ee85c476998c222e4709a67f15efeef63",
+          "md5": "8a7adbb0e8e3d2818e0f15424f04feba"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc02-SNAPSHOT/kmock-android-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmock-android/0.3.0-rc02-SNAPSHOT/kmock-android-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-android",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc02-SNAPSHOT/kmock-iosarm64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosarm64/0.3.0-rc02-SNAPSHOT/kmock-iosarm64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosarm64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc02-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iossimulatorarm64/0.3.0-rc02-SNAPSHOT/kmock-iossimulatorarm64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iossimulatorarm64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc02-SNAPSHOT/kmock-iosx64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-iosx64/0.3.0-rc02-SNAPSHOT/kmock-iosx64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-iosx64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc02-SNAPSHOT/kmock-js-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kmock-js/0.3.0-rc02-SNAPSHOT/kmock-js-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-js",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc02-SNAPSHOT/kmock-jvm-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kmock-jvm/0.3.0-rc02-SNAPSHOT/kmock-jvm-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-jvm",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmock-linuxx64/0.3.0-rc02-SNAPSHOT/kmock-linuxx64-0.3.0-rc02-SNAPSHOT.module",
+        "group": "tech.antibytes.kmock",
+        "module": "kmock-linuxx64",
+        "version": "0.3.0-rc02-SNAPSHOT"
+      }
+    }
+  ]
+}
