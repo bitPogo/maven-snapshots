@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-SNAPSHOT/core-0.2.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-js-0.2.0-SNAPSHOT.klib",
+          "url": "core-js-0.2.0-SNAPSHOT.klib",
+          "size": 90627,
+          "sha512": "164b6de1c6a87c96acac46c9d771e98d75ec4e7e89d1be7fee7b6aefcf50468af4964f14bb79f917736415060fd4928df94f4c20e17940956c7c389d0cfe4d7a",
+          "sha256": "07b30495b50da5121f9bbfff13c040e5b1823b3968236299faa74452ebe788b0",
+          "sha1": "633cf16ecae122f3f4d422cd5db51c5e0b69450e",
+          "md5": "43efe5624be2ca5523789aac5d064c7f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-js-0.2.0-SNAPSHOT.klib",
+          "url": "core-js-0.2.0-SNAPSHOT.klib",
+          "size": 90627,
+          "sha512": "164b6de1c6a87c96acac46c9d771e98d75ec4e7e89d1be7fee7b6aefcf50468af4964f14bb79f917736415060fd4928df94f4c20e17940956c7c389d0cfe4d7a",
+          "sha256": "07b30495b50da5121f9bbfff13c040e5b1823b3968236299faa74452ebe788b0",
+          "sha1": "633cf16ecae122f3f4d422cd5db51c5e0b69450e",
+          "md5": "43efe5624be2ca5523789aac5d064c7f"
+        }
+      ]
+    }
+  ]
+}
