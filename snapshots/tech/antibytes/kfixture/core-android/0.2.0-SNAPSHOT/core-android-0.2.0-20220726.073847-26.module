@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.2.0-SNAPSHOT/core-0.2.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-release.aar",
+          "url": "core-android-0.2.0-SNAPSHOT.aar",
+          "size": 172663,
+          "sha512": "16699fb47ccc7b86e644570b8aa9ebeba7699e5f2a72b75c305239e0f91fadbbdebfb92fdfa3064434e026245998ba0038e8f2bca482f66bc4838aac17a85beb",
+          "sha256": "8c0125f2b7dedc285cc741292bc9d214df6de7a8a41bd4915af1c0513b8d7cfb",
+          "sha1": "eafc89ce562bb46812888fe977d94ad225451104",
+          "md5": "cbc7590e00f005494f4348ed2c524475"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-isolate",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-release.aar",
+          "url": "core-android-0.2.0-SNAPSHOT.aar",
+          "size": 172663,
+          "sha512": "16699fb47ccc7b86e644570b8aa9ebeba7699e5f2a72b75c305239e0f91fadbbdebfb92fdfa3064434e026245998ba0038e8f2bca482f66bc4838aac17a85beb",
+          "sha256": "8c0125f2b7dedc285cc741292bc9d214df6de7a8a41bd4915af1c0513b8d7cfb",
+          "sha1": "eafc89ce562bb46812888fe977d94ad225451104",
+          "md5": "cbc7590e00f005494f4348ed2c524475"
+        }
+      ]
+    }
+  ]
+}
