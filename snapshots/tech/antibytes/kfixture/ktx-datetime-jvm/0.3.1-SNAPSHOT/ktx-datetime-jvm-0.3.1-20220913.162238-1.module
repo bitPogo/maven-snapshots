@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.3.1-SNAPSHOT/ktx-datetime-0.3.1-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.3.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.3.1-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.3.1-SNAPSHOT.jar",
+          "size": 6404,
+          "sha512": "4e5d85ea8e6f60bc47d2e6cb4c12b26413a0033083baef444224a51f0e03a3e08566a57b8405d88979febea81b062a812a10912360c298ee6c79c4b688268f6e",
+          "sha256": "2839388bd7026347efe7a6b4e73b96e2d3c38065a8807aac8747424457099347",
+          "sha1": "7f0abcde21ce103151c91e66b4ef154d9d076e05",
+          "md5": "ebbf1c9ba4629801ebe4c16c0cd3e100"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.3.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-jvm-0.3.1-SNAPSHOT.jar",
+          "url": "ktx-datetime-jvm-0.3.1-SNAPSHOT.jar",
+          "size": 6404,
+          "sha512": "4e5d85ea8e6f60bc47d2e6cb4c12b26413a0033083baef444224a51f0e03a3e08566a57b8405d88979febea81b062a812a10912360c298ee6c79c4b688268f6e",
+          "sha256": "2839388bd7026347efe7a6b4e73b96e2d3c38065a8807aac8747424457099347",
+          "sha1": "7f0abcde21ce103151c91e66b4ef154d9d076e05",
+          "md5": "ebbf1c9ba4629801ebe4c16c0cd3e100"
+        }
+      ]
+    }
+  ]
+}
