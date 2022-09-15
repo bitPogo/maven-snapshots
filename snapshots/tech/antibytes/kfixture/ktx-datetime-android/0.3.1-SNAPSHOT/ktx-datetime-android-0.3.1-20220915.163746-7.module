@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.3.1-SNAPSHOT/ktx-datetime-0.3.1-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.3.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ktx-datetime-release.aar",
+          "url": "ktx-datetime-android-0.3.1-SNAPSHOT.aar",
+          "size": 47078,
+          "sha512": "58e784fa088bd82bc41f02e5779f011a2909b237f573132746eaa7b3650b084b137993cab8c29d4b5f9ab5f4f7a4d8bfa0ec9b92acb6d8fb1921a2e1d0009459",
+          "sha256": "f0d0898e658597d7a44e19550ddd9cefeda3b973a9336d89b11fa01e2b089818",
+          "sha1": "a8ac8ca81382afb36949733aa2df07adbeb5366b",
+          "md5": "7546bcf7a960ec96af54ab5e90804e60"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-release.aar",
+          "url": "ktx-datetime-android-0.3.1-SNAPSHOT.aar",
+          "size": 47078,
+          "sha512": "58e784fa088bd82bc41f02e5779f011a2909b237f573132746eaa7b3650b084b137993cab8c29d4b5f9ab5f4f7a4d8bfa0ec9b92acb6d8fb1921a2e1d0009459",
+          "sha256": "f0d0898e658597d7a44e19550ddd9cefeda3b973a9336d89b11fa01e2b089818",
+          "sha1": "a8ac8ca81382afb36949733aa2df07adbeb5366b",
+          "md5": "7546bcf7a960ec96af54ab5e90804e60"
+        }
+      ]
+    }
+  ]
+}
