@@ -1,0 +1,63 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc02-SNAPSHOT/kmock-0.3.0-rc02-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc02-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-linuxx64-0.3.0-rc02-SNAPSHOT.klib",
+          "size": 202465,
+          "sha512": "b041d332d05ff36977ab53f166d22bab234b6a4f155145a30760147fb9ca1ceed42abab0d91682038835921bb179f4ac0b45ab8d79d4bb0976e7117f6b5bc2f7",
+          "sha256": "c16ecdbb3ca09d2bfcbb3472a6bde87b22b7241cf0475cdbb5f977eba0d4e63a",
+          "sha1": "06c3794ac6d5949eaf76b03936c13d9822e7c632",
+          "md5": "c1a69bbb4f52ad5b7b1aeacb542b0636"
+        }
+      ]
+    }
+  ]
+}
