@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-runtime-configuration",
+    "version": "fefa0c6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-fefa0c6.jar",
+          "url": "antibytes-runtime-configuration-fefa0c6.jar",
+          "size": 9073,
+          "sha512": "bd20b9b1477dc3f0c5482464e1defa22a094cd6f6ce380822536c22346930d381859eff1afc6d0c5d80ad5838662e661d4807639458a4ebfba2ef97cda64719f",
+          "sha256": "66611bfec5a82850793a81ea019080fef56e7257d42aaa9511b10e27c47e6649",
+          "sha1": "1af410549a71381e2c03086c570e412b50ef3984",
+          "md5": "e7e205ffb69e040a97a8f57bb802aaf3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle-plugins",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "fefa0c6"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-fefa0c6.jar",
+          "url": "antibytes-runtime-configuration-fefa0c6.jar",
+          "size": 9073,
+          "sha512": "bd20b9b1477dc3f0c5482464e1defa22a094cd6f6ce380822536c22346930d381859eff1afc6d0c5d80ad5838662e661d4807639458a4ebfba2ef97cda64719f",
+          "sha256": "66611bfec5a82850793a81ea019080fef56e7257d42aaa9511b10e27c47e6649",
+          "sha1": "1af410549a71381e2c03086c570e412b50ef3984",
+          "md5": "e7e205ffb69e040a97a8f57bb802aaf3"
+        }
+      ]
+    }
+  ]
+}

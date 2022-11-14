@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "fefa0c6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-fefa0c6.jar",
+          "url": "antibytes-versioning-fefa0c6.jar",
+          "size": 16029,
+          "sha512": "b5ac6e7a69bc5224e20635f04ec062b2f24f8f0015c802560ff2e2f46623a10dfb55dfe71570d0ff1c33385cd44aba3132203fab7ca07747c9045eaa68da0472",
+          "sha256": "2825d7276bc75dd23da4ed782aa8bd5151323095bb57a9b38eb0ea28026e2194",
+          "sha1": "dda4a606576652177c5e57c2d8c0e48f45fab4f9",
+          "md5": "7a5184467e8caf660504e13c471af7fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-fefa0c6.jar",
+          "url": "antibytes-versioning-fefa0c6.jar",
+          "size": 16029,
+          "sha512": "b5ac6e7a69bc5224e20635f04ec062b2f24f8f0015c802560ff2e2f46623a10dfb55dfe71570d0ff1c33385cd44aba3132203fab7ca07747c9045eaa68da0472",
+          "sha256": "2825d7276bc75dd23da4ed782aa8bd5151323095bb57a9b38eb0ea28026e2194",
+          "sha1": "dda4a606576652177c5e57c2d8c0e48f45fab4f9",
+          "md5": "7a5184467e8caf660504e13c471af7fa"
+        }
+      ]
+    }
+  ]
+}
