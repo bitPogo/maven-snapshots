@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-0.8.8.jar",
+          "url": "antibytes-versioning-0.8.8.jar",
+          "size": 16029,
+          "sha512": "385ed220db2f97293ecfa99214b1f781cd315fb35c2b6e9e6866b6f92e2ddb46005ec4a67dc5d676c98115635f2fd53c21c245119d161ad3eaef3fbba74fd7c9",
+          "sha256": "4aef77e135a6386041229c0f43e113025b6a7bea6651e65b2548da8e869092f7",
+          "sha1": "917a6ea4f2a66003453566dea1c661832085f327",
+          "md5": "2b6ae65b652685dc3edeee3a58a731ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-0.8.8.jar",
+          "url": "antibytes-versioning-0.8.8.jar",
+          "size": 16029,
+          "sha512": "385ed220db2f97293ecfa99214b1f781cd315fb35c2b6e9e6866b6f92e2ddb46005ec4a67dc5d676c98115635f2fd53c21c245119d161ad3eaef3fbba74fd7c9",
+          "sha256": "4aef77e135a6386041229c0f43e113025b6a7bea6651e65b2548da8e869092f7",
+          "sha1": "917a6ea4f2a66003453566dea1c661832085f327",
+          "md5": "2b6ae65b652685dc3edeee3a58a731ef"
+        }
+      ]
+    }
+  ]
+}
