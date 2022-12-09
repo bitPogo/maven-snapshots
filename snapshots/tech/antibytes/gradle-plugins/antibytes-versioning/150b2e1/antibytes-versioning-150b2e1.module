@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "150b2e1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-150b2e1.jar",
+          "url": "antibytes-versioning-150b2e1.jar",
+          "size": 17440,
+          "sha512": "e190a54994bd0678d546e56c4fd72d29a8f93a593f700bb4c51ab17f111ed38d361e8a316c3bd18cfd35654a38623f82f32bb2413d3d175a8afdc070d781cdd8",
+          "sha256": "d290e084d84a75a522b627f8310b144be9b287b3742b58eaed39caaea97f2cfc",
+          "sha1": "2507765edf053b1b1891f966aa27d55674073a2f",
+          "md5": "6fb07840a6dff1b003cd56486c3d0d84"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-150b2e1.jar",
+          "url": "antibytes-versioning-150b2e1.jar",
+          "size": 17440,
+          "sha512": "e190a54994bd0678d546e56c4fd72d29a8f93a593f700bb4c51ab17f111ed38d361e8a316c3bd18cfd35654a38623f82f32bb2413d3d175a8afdc070d781cdd8",
+          "sha256": "d290e084d84a75a522b627f8310b144be9b287b3742b58eaed39caaea97f2cfc",
+          "sha1": "2507765edf053b1b1891f966aa27d55674073a2f",
+          "md5": "6fb07840a6dff1b003cd56486c3d0d84"
+        }
+      ]
+    }
+  ]
+}
