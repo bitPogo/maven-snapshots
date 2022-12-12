@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "f266a0f-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-f266a0f-SNAPSHOT.jar",
+          "url": "antibytes-versioning-f266a0f-SNAPSHOT.jar",
+          "size": 17440,
+          "sha512": "ecd2cacee7907c9477e4a921cbf8a8be15ac48ab9ac2f523ac01aa950fc6c57151483463de4c2009bf049751fc6d2a4f983e70c4ddb03e70b3d82070b91f05ee",
+          "sha256": "fcbae45d6373de6cd9212469a99a4b6227cf388a09e26ba2b643e2c59f667f69",
+          "sha1": "0f92d4b5284f848908ea85898668df35b68b0600",
+          "md5": "0712286ae15826e1fd480697aaf17b5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-f266a0f-SNAPSHOT.jar",
+          "url": "antibytes-versioning-f266a0f-SNAPSHOT.jar",
+          "size": 17440,
+          "sha512": "ecd2cacee7907c9477e4a921cbf8a8be15ac48ab9ac2f523ac01aa950fc6c57151483463de4c2009bf049751fc6d2a4f983e70c4ddb03e70b3d82070b91f05ee",
+          "sha256": "fcbae45d6373de6cd9212469a99a4b6227cf388a09e26ba2b643e2c59f667f69",
+          "sha1": "0f92d4b5284f848908ea85898668df35b68b0600",
+          "md5": "0712286ae15826e1fd480697aaf17b5d"
+        }
+      ]
+    }
+  ]
+}
