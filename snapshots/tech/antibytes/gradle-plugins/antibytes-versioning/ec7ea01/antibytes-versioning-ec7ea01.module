@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle-plugins",
+    "module": "antibytes-versioning",
+    "version": "ec7ea01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-ec7ea01.jar",
+          "url": "antibytes-versioning-ec7ea01.jar",
+          "size": 17802,
+          "sha512": "3c254c3d11448089c535ca18ca6e1504a18c40ba2054f1c3afe57310291153b767324ecc5cb47aefa5167cce92ec075342f4b6ca62ee2e766c659752f57f493a",
+          "sha256": "6b053a735d087a696a3c10298023e50d483d4e6c728fe8401bc375dd4b17db48",
+          "sha1": "fc76f170a44744f7c4266fa5696055a090baeff3",
+          "md5": "ed1c68afb6fc6cd860d2deb121c134ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-ec7ea01.jar",
+          "url": "antibytes-versioning-ec7ea01.jar",
+          "size": 17802,
+          "sha512": "3c254c3d11448089c535ca18ca6e1504a18c40ba2054f1c3afe57310291153b767324ecc5cb47aefa5167cce92ec075342f4b6ca62ee2e766c659752f57f493a",
+          "sha256": "6b053a735d087a696a3c10298023e50d483d4e6c728fe8401bc375dd4b17db48",
+          "sha1": "fc76f170a44744f7c4266fa5696055a090baeff3",
+          "md5": "ed1c68afb6fc6cd860d2deb121c134ab"
+        }
+      ]
+    }
+  ]
+}
