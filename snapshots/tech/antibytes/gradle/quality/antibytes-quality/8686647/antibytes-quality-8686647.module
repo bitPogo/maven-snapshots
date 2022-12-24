@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.quality",
+    "module": "antibytes-quality",
+    "version": "8686647",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-quality-8686647.jar",
+          "url": "antibytes-quality-8686647.jar",
+          "size": 62582,
+          "sha512": "12d11d5a4374b15f9a3ed64f1b9f89f00ed2275e7f80926fb20913c167df50ab935257a910e2ad7333fce11090312f6418a5ffe52c72b3c1a88dc1e389d0567f",
+          "sha256": "76e1ed192bb5a86f811196a5b0e82078cf5d34c73b0763991c0949b12f3892d4",
+          "sha1": "f08d3903a0ca7bdf18409463112368483787729b",
+          "md5": "dca4fd6023d660da54e0fe5f04c9fec1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "6.11.0"
+          }
+        },
+        {
+          "group": "com.pinterest",
+          "module": "ktlint",
+          "version": {
+            "requires": "0.47.1"
+          }
+        },
+        {
+          "group": "io.gitlab.arturbosch.detekt",
+          "module": "detekt-gradle-plugin",
+          "version": {
+            "requires": "1.21.0"
+          }
+        },
+        {
+          "group": "org.sonarsource.scanner.gradle",
+          "module": "sonarqube-gradle-plugin",
+          "version": {
+            "requires": "3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "binary-compatibility-validator",
+          "version": {
+            "requires": "0.12.1"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "8686647"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.helper",
+          "module": "antibytes-dependency-helper",
+          "version": {
+            "requires": "8686647"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-quality-8686647.jar",
+          "url": "antibytes-quality-8686647.jar",
+          "size": 62582,
+          "sha512": "12d11d5a4374b15f9a3ed64f1b9f89f00ed2275e7f80926fb20913c167df50ab935257a910e2ad7333fce11090312f6418a5ffe52c72b3c1a88dc1e389d0567f",
+          "sha256": "76e1ed192bb5a86f811196a5b0e82078cf5d34c73b0763991c0949b12f3892d4",
+          "sha1": "f08d3903a0ca7bdf18409463112368483787729b",
+          "md5": "dca4fd6023d660da54e0fe5f04c9fec1"
+        }
+      ]
+    }
+  ]
+}
