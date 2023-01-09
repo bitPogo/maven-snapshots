@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-androidnativearm32-0.4.0-SNAPSHOT.klib",
+          "size": 105870,
+          "sha512": "08ef68dd96a3fe2e2ad5f913cd54044f7d523b3d1941b39bb22e8eddd1a04e188337d6cc5bcec16d9043f80108d3ca89a783ccc7bb8ffbe65ab23d172fbcdbe2",
+          "sha256": "5f976c222b55bc29ef429d0fc2109dae50119cb443648e63f9e19d8397cccc1d",
+          "sha1": "99e95c58b364bec2899078482effa4290f1f2718",
+          "md5": "ef8502d162ea5173f1c8abc99911117e"
+        }
+      ]
+    }
+  ]
+}

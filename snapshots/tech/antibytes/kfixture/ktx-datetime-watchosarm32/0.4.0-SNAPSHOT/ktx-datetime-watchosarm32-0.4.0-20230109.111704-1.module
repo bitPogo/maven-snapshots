@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-SNAPSHOT/ktx-datetime-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-watchosarm32-0.4.0-SNAPSHOT.klib",
+          "size": 34685,
+          "sha512": "94c61cdb8193334beeb782eea0f2b046e68fd47b7e83e6b180ecd3321d9d79c48d1b88f8f24827837dfef5c1f3553134124cec2b09f84f984382cf7dabca85ed",
+          "sha256": "83ec2ab78faeaf110e8404029968de74955ca5290448b6079724e57889e07a86",
+          "sha1": "e7a1be6b76f56b799fa98970413f672269e76bac",
+          "md5": "7c4bc7ee450b45f6ede02fe4d30a771c"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-watchosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-watchosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "968db63877a656e77323b8a742960d50f637cdb77801e62dec11f5e36b7b89dff63aef93dd129c5212f82481a1b68c394e34c475e53270c6d833493cd7d0c7c1",
+          "sha256": "82eb81dd84b4da26dace39db547c380d44cd9d2879dad1bf6ee33ba46b495a77",
+          "sha1": "5ce634657ffd7803252c3f7c665e4454a3ae71a7",
+          "md5": "e1fc68bba2b856027de1fef2dfcdd81c"
+        }
+      ]
+    }
+  ]
+}

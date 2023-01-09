@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-iosx64-0.4.0-SNAPSHOT.klib",
+          "size": 105817,
+          "sha512": "648ebbbc95f90e17229fb0497b919f66b2007adb0eac8f43b251990be669e50e1e5394ca8cc403152eeb4fc6fcfa621dfc4ef5485dfa849b8583b2d32d3353f1",
+          "sha256": "0ecea98229a391a98340dfaa8e7bf59e2a1400413bc630864ea82c30c79242ce",
+          "sha1": "f44f2724006be0709bd6af40c0241f689785d315",
+          "md5": "9f664b2f86cef0e5808460010cf9a48a"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-iosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-iosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1032cdd6f2ba489d3795a0ddb93f292dab93a8013d068a8c832c6a1ccff73eb80028711daf2fd3bd02ee0ff0b2935281ce6efc6ddb7721f17c4d100fdb87ab4b",
+          "sha256": "c26a684a637ddf0cbabd68b3147ad1e4e32600f54ce910794e40647797ff8caa",
+          "sha1": "8a1ebf76aef9fb0287284ebe189de9fbd7f9968a",
+          "md5": "fc6d5b325436292f0f8687d72b84176b"
+        }
+      ]
+    }
+  ]
+}

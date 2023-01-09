@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-macosx64-0.4.0-SNAPSHOT.klib",
+          "size": 105834,
+          "sha512": "d8a2a3dfb5cce07ba44fa9b2a1b621e2b70ba426660ae4412cb3689f772bcbed18f96cc75c67e8edbead46fd3b24b8b64bca5aeab7abc1f883d8895d89759bb2",
+          "sha256": "0a357788587658b0d90ab68d3d288700d74f84a8fae96858bd3f9c03f866eca1",
+          "sha1": "bb238872439afdd4ba880cb8cf70c046ea4cae3a",
+          "md5": "1c34d6f420c2024e1f48c9db6acccbfa"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-macosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-macosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1032cdd6f2ba489d3795a0ddb93f292dab93a8013d068a8c832c6a1ccff73eb80028711daf2fd3bd02ee0ff0b2935281ce6efc6ddb7721f17c4d100fdb87ab4b",
+          "sha256": "c26a684a637ddf0cbabd68b3147ad1e4e32600f54ce910794e40647797ff8caa",
+          "sha1": "8a1ebf76aef9fb0287284ebe189de9fbd7f9968a",
+          "md5": "fc6d5b325436292f0f8687d72b84176b"
+        }
+      ]
+    }
+  ]
+}
