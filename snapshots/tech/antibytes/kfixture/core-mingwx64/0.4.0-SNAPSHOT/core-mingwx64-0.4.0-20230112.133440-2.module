@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-mingwx64-0.4.0-SNAPSHOT.klib",
+          "size": 105835,
+          "sha512": "b28d3d173de95ab20ef1202db9559d127f6e42077c9e8449158820ed3363e5629901877bed2fbe56eafc950d0d1fd4db5d6d18b5bd8307c7d772d4b2777d4e74",
+          "sha256": "689eec694545c045f096270103774079c0ff6b7604afee8332522169f59b7ca6",
+          "sha1": "81561abfb62bfdb7ac6a36c78cfa2f266a2fb460",
+          "md5": "e23c37e31d696e5cf8b7238e793c3355"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-SNAPSHOT/ktx-datetime-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-iosarm32-0.4.0-SNAPSHOT.klib",
+          "size": 34649,
+          "sha512": "74f96655baaa671df03f409fa4615ee5b56274304c5719df43d32d63b7beb1085580bf213c8f77163c108b2c2b928e771bc5cbfdeeda7088798e4298da51705d",
+          "sha256": "63fa859eaa1e7df2c10e041cb769188c617e1c434eb3c344c14745eb2774eafb",
+          "sha1": "cca7d15eff7122af3c04812f87dd1bbdc77619dd",
+          "md5": "5d840a4a39d4b3507e2ad7efdce05ae4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime-iosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "ktx-datetime-iosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "c6cb1ffc4597f43b0d970e9a59fb4da98e7ec2d787991a96246b81b7c9ff68ab6275f391cd272b1a339e0f687c016609ef2ee97fa27e1625894136e297f6f052",
+          "sha256": "f859d08b78bfc496d7559ce373e3d212843252968d7b365183d95b0b73c60f0d",
+          "sha1": "2de9bd75dc061a676965279f14915df51f167394",
+          "md5": "e6643a6b1a4a1662a3618170578180f7"
+        }
+      ]
+    }
+  ]
+}
