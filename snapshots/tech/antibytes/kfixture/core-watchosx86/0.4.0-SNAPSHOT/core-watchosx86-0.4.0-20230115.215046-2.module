@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-watchosx86-0.4.0-SNAPSHOT.klib",
+          "size": 105854,
+          "sha512": "e329f0c06611b415fbb9c916977e31b532c8f5c4f57beede067057b181d825beca6b22d347cca42785a3333b842b7ca40a24206b07de24b86cadb4c443c3a267",
+          "sha256": "a8f3516fa309affa18f82228abdd015927f6f3cde92eccb4a1f2624fdcc1dfcf",
+          "sha1": "c63d8d0b797ce07f3d4b0c4c2c0c9769537db28a",
+          "md5": "fe87cbe3887090c412b4e53c685a5873"
+        }
+      ]
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-watchosx86-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-watchosx86-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "fc723dca09ca503a6b00171546d79bc358ad214fe96cf5ac8c0e96987493ef775061f9790a9ecedd5be3f497e1deb5ee9388537ce5751499b42110b3bbf9f8b8",
+          "sha256": "adbd3b8220372d6704e87f69026d1cd9b9a548d94bdbce0305adf2ad2d26770a",
+          "sha1": "ab6726e2daf2d45764562bfa906cbe1bfc2f924a",
+          "md5": "388ce9fe55e51411b609bb68eefc1c5e"
+        }
+      ]
+    }
+  ]
+}
