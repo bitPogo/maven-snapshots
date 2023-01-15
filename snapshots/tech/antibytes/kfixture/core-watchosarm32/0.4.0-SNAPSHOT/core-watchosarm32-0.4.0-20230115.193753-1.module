@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-watchosarm32-0.4.0-SNAPSHOT.klib",
+          "size": 105871,
+          "sha512": "15f433215238fd539763e12c39180ba6d4467558426b2ec74efd46538eac53aaa2119c4dc7f532f6d67c40c587b8ca233303955a58b57b97ceffbd972d46905b",
+          "sha256": "7bb24ab9548c98329cb067d45919be5b024b4d2bcc27c1963e6170be77237746",
+          "sha1": "e4ba4d4b9033c5635955248aa46ca1ef9ca7c0fb",
+          "md5": "88176f7c5deaa4609744a2c8e1a4ef20"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-watchosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-watchosarm32-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "ecfd6d9b9d2f6880ceba3761e3ad6ab6acd0663964322485a1e948f31807e19608cf3a5eaa79f90c5042ce2c965209ee5a44fa9212e717051f97a1e32690ebb6",
+          "sha256": "221f8ce8fc985ed759896f34de319e72f714a98bd25a733a563449aa9d883176",
+          "sha1": "ccdad16add1e55c6aaa7fa28450dfe2e0502054c",
+          "md5": "796a301d1ab5f75af10ad4aa57d8bbe1"
+        }
+      ]
+    }
+  ]
+}

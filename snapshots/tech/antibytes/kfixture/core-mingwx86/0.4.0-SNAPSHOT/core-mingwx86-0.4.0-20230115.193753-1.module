@@ -1,0 +1,49 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-mingwx86-0.4.0-SNAPSHOT.klib",
+          "size": 105835,
+          "sha512": "21bd829da81412883d34216c76f2f31ff729144f195f9c1c9753cfbbef14142392a74c84f3f2e78736fa90330441a5406a60a1cad17a30ec7b4b8604bffdae40",
+          "sha256": "92ef43361c03ffb3c78bcb13bc72c569c0b25f9277492e784f5bbbb91570a1e5",
+          "sha1": "8d3cef3c0b1b049f0ae386d632c08da441cf271e",
+          "md5": "eee0e6cedda6f4ec53461ff78d65a3dd"
+        }
+      ]
+    }
+  ]
+}
