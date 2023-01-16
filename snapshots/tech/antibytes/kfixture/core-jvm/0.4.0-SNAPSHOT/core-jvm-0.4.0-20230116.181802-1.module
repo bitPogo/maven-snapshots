@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "size": 273618,
+          "sha512": "ccfbeb646d188629d36f18ab08395b04e6ae29fe50ddc5ae434c098c5d0435c214540f87235b0739dc08e81030a16999704f979a0bc9991722904c1c127be892",
+          "sha256": "7df9d8ced44c04420ed9f1db452dbe3b425969c23d3785def09c4aca0f9dc36c",
+          "sha1": "16d06be8eab7fb8f2d2217dd79f0aeb7ef161974",
+          "md5": "320e3ac6e4ebad088de70c10481a6ac5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "size": 273618,
+          "sha512": "ccfbeb646d188629d36f18ab08395b04e6ae29fe50ddc5ae434c098c5d0435c214540f87235b0739dc08e81030a16999704f979a0bc9991722904c1c127be892",
+          "sha256": "7df9d8ced44c04420ed9f1db452dbe3b425969c23d3785def09c4aca0f9dc36c",
+          "sha1": "16d06be8eab7fb8f2d2217dd79f0aeb7ef161974",
+          "md5": "320e3ac6e4ebad088de70c10481a6ac5"
+        }
+      ]
+    }
+  ]
+}
