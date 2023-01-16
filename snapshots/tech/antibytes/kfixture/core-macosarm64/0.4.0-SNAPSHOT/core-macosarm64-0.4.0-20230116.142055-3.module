@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-macosarm64-0.4.0-SNAPSHOT.klib",
+          "size": 105853,
+          "sha512": "59682954cdcce8ae8bf903c168f3616bfe022737c386899ff953dae5e3ef58c2ae5a0a1688cbf4007905c87ebd3ca6fb1e2f040e55eeef419aa99ece3c4240f7",
+          "sha256": "9b86b4b1dc9e1f76700139dd56fcceb647ca299785f2504c72bb5102e63213c5",
+          "sha1": "bd98e1bfb5e34d7ce4a6bb54797e4b0b3201bb3a",
+          "md5": "c6d497be75c9e8e11a1e3e13f90f9456"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-macosarm64-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-macosarm64-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e472c27b5f5f2b9d4623b62492d172b17ef3b41f5c23a84de13b1329da9180ef35bc8d0f41c9fdb8d26268470303b4e9bcb8dfede14d8b8aa24ef688d20a672c",
+          "sha256": "90a39a590c215ed44986a07519bc93d9ed15b7ba304e01a98b6ea2e30299d35e",
+          "sha1": "5708dc23efee7e261ee7dc747065d9c9a067b95e",
+          "md5": "f88cb57c4c01804159b8b2fb7a2475d3"
+        }
+      ]
+    }
+  ]
+}
