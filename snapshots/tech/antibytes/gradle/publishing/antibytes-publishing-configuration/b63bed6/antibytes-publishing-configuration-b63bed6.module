@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "b63bed6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-b63bed6.jar",
+          "url": "antibytes-publishing-configuration-b63bed6.jar",
+          "size": 4703,
+          "sha512": "14dbc588e911ef5f21d356b5aa439f958ffd8797aff2710f9d69b257f2ab3b17375fccab7dd69e1ae1cb4f34d6c77b7b1815330189fd4e10bb7b9102300fe6d4",
+          "sha256": "7c252b1b8fa0421b686ed247bcd995ef3d503b8f36f78774bc82166499398902",
+          "sha1": "4a23a7abfe47c478c80deadf168a6ba8b4db5e0c",
+          "md5": "cff6990770a65bb741c7b82312379898"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "b63bed6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-b63bed6.jar",
+          "url": "antibytes-publishing-configuration-b63bed6.jar",
+          "size": 4703,
+          "sha512": "14dbc588e911ef5f21d356b5aa439f958ffd8797aff2710f9d69b257f2ab3b17375fccab7dd69e1ae1cb4f34d6c77b7b1815330189fd4e10bb7b9102300fe6d4",
+          "sha256": "7c252b1b8fa0421b686ed247bcd995ef3d503b8f36f78774bc82166499398902",
+          "sha1": "4a23a7abfe47c478c80deadf168a6ba8b4db5e0c",
+          "md5": "cff6990770a65bb741c7b82312379898"
+        }
+      ]
+    }
+  ]
+}

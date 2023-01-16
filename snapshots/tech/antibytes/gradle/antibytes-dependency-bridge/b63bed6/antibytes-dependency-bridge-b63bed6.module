@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "b63bed6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-b63bed6.jar",
+          "url": "antibytes-dependency-bridge-b63bed6.jar",
+          "size": 38501,
+          "sha512": "136abfac3a88daf5c010929283fe67c73fa9ed21b154af27440107e2d1ee09152f51e666106164b1d536dca3b0bad9e8a5be288892d00911dcf7150fe2945565",
+          "sha256": "f2ba88b9e0b6a37367e949cb97342f75bab985ae7d4ee773e544d3c379c9ed98",
+          "sha1": "5b255a5c1d42a1da878228a3e273219ca50dd610",
+          "md5": "5c9e131130e604884dca536d62cfd719"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-b63bed6.jar",
+          "url": "antibytes-dependency-bridge-b63bed6.jar",
+          "size": 38501,
+          "sha512": "136abfac3a88daf5c010929283fe67c73fa9ed21b154af27440107e2d1ee09152f51e666106164b1d536dca3b0bad9e8a5be288892d00911dcf7150fe2945565",
+          "sha256": "f2ba88b9e0b6a37367e949cb97342f75bab985ae7d4ee773e544d3c379c9ed98",
+          "sha1": "5b255a5c1d42a1da878228a3e273219ca50dd610",
+          "md5": "5c9e131130e604884dca536d62cfd719"
+        }
+      ]
+    }
+  ]
+}
