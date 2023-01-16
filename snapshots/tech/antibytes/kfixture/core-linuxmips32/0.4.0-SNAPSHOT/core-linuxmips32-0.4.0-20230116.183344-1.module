@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxMips32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-linuxmips32-0.4.0-SNAPSHOT.klib",
+          "size": 105861,
+          "sha512": "1a3b61a6ea3f87be15ae44e19d6827bc2954a54d4c754ed756fb30da5cc1e3549c97883434c9a916d94275f758b5d60adfbf958ce8a7ba28fe776102021c1953",
+          "sha256": "7a9fdba5f18e8a8d5527dd3e28f4a0ae32e4f0dab53c75e96c40c07047b7849e",
+          "sha1": "5ea11d9f6cef264835a82ce25c7b1184fac7d757",
+          "md5": "3aa3574aa6291eb938958459fb92e372"
+        }
+      ]
+    },
+    {
+      "name": "linuxMips32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "linux_mips32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-linuxmips32-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-linuxmips32-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "2c4f62ab13edfc12194fcccb0e52fec56a5b2dc665bcac81965668effeca52b82c6784a97d6f11ea54795641442771319c376ebe00df3da2921e8e14bebf4c35",
+          "sha256": "60335a43f8e15bc8d0f1588ab1b8d300bb4a3e0a0e4cafab288aece20f0294a2",
+          "sha1": "c4b3e21e8edb8fe1587b2dfb0e8b7e0381bbd933",
+          "md5": "ab08cb5be6d700a1081d62be0209e3c1"
+        }
+      ]
+    }
+  ]
+}
