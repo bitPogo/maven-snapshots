@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/dbba7bb/test-utils-ktor-dbba7bb.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "dbba7bb",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-tvosx64-dbba7bb.klib",
+          "size": 15018,
+          "sha512": "dff06c96dc6df6d8e3786e5659723307967a6ef6116ed33fe5f3284bbdfd5cd3ccd06938e2f1a7cfd46a2a7e492f8607bba30f7025e0f3e622f186b1dac9a110",
+          "sha256": "dc55863ecfd212cf417a47bdea1f82ef76eb7586731c606196309bd3671415cc",
+          "sha1": "27b5439964da95af1f1d3463071629ed109ceb2e",
+          "md5": "826208da6f74b8c10e28195f8a6227cb"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-tvosx64-dbba7bb-metadata.jar",
+          "url": "test-utils-ktor-tvosx64-dbba7bb-metadata.jar",
+          "size": 261,
+          "sha512": "ef81e5e83703fd82231537d81b82253146b8df7725744dcc9b431e9fabedd29b8fc76e3c5624023b4719233d2a0918a90d396156dc145a8da6882f62d8fb9933",
+          "sha256": "16f759454c42727d8d9bca591244fe6a1442bf8d6012ce6c49479a5c120ed399",
+          "sha1": "65fb8ae5c099d20a30482fb71addf9e9e8fda492",
+          "md5": "70a84b524a3d65d60375fce02f1c842b"
+        }
+      ]
+    }
+  ]
+}
