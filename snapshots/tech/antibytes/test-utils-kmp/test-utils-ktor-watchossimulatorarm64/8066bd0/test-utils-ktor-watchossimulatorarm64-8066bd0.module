@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/8066bd0/test-utils-ktor-8066bd0.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "8066bd0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-watchossimulatorarm64-8066bd0.klib",
+          "size": 15147,
+          "sha512": "7e4c229e9a77a84cbeb057eb612546d5d21b3982ce5656b8564674df622a9f545037ec466e97a4f26b0ec06f58967ee3108512aed3fad6cd2cf85475ea96dc77",
+          "sha256": "141250f441b5362f48083257d19a7f29b6fd59fd093e2ecf423a6cc1357d5b9c",
+          "sha1": "fb4dae06a16609ac6be24a724fcb898dd66fc702",
+          "md5": "ac86fad515ace0fde907e57ac1666739"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-watchossimulatorarm64-8066bd0-metadata.jar",
+          "url": "test-utils-ktor-watchossimulatorarm64-8066bd0-metadata.jar",
+          "size": 261,
+          "sha512": "e89785230bb50132f211de14c2adf5da2bb044ace1907f0a3e6e3645d3e208c34e0a1be332cd2a0ace9f350b573f0af0467679e598a940cc774297e64b653ccb",
+          "sha256": "c0089ce1df28d6925c169fbd827eaf579d35c7e7c52cbd204f3118387dbb7f3b",
+          "sha1": "0840a9e67943f8f922f4e85c088ab635edd9c737",
+          "md5": "58947de0919ce83caf88a75c6930541f"
+        }
+      ]
+    }
+  ]
+}
