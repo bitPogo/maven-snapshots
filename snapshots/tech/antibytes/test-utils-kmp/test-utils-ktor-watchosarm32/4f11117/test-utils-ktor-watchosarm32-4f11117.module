@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/4f11117/test-utils-ktor-4f11117.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "4f11117",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-watchosarm32-4f11117.klib",
+          "size": 15061,
+          "sha512": "f42f114a4914b37d5544b7f07a04c4cee20f777f282e15ec3fd99437499ab7b1610722dcd1300df51ef6eaa8b9c392b2dabf2c04752b54ec52384b1634bfdcf4",
+          "sha256": "253bc5aaeb7baee4c614705093fc31d95688a1acaa7c5783168837da1ed22827",
+          "sha1": "dd8b9fec67d16fe5bf74e63bfd5aaf4f4a90659a",
+          "md5": "4a9df491df76e2f0849c508500fa2273"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-watchosarm32-4f11117-metadata.jar",
+          "url": "test-utils-ktor-watchosarm32-4f11117-metadata.jar",
+          "size": 261,
+          "sha512": "f9b6685be4f45f9d7e8993da39b46273f364b46c08165acaf6e2a024e75415a8841a330fb35bb1409d0d838aa69998bc6e8dd6f5e400be7b61b6ca2bd8f828cd",
+          "sha256": "fbf4a1ef2ba23754742768248651853f68656bca94669f73ef50bd6555776367",
+          "sha1": "0cc2c7f58ac3ce3a75e90490d1ea55ce3e3eefe1",
+          "md5": "bf26a64c7e0f265c069abe446cf4fc04"
+        }
+      ]
+    }
+  ]
+}
