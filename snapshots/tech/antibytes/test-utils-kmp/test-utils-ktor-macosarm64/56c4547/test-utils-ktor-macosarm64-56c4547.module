@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/56c4547/test-utils-ktor-56c4547.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "56c4547",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-macosarm64-56c4547.klib",
+          "size": 15100,
+          "sha512": "dfb02cafd229fc2c90ab440e01424a005c7d1c0d69911d48c338132d57c5f404f790348c2d8ca6cccb51e9137e6bbda7632f17e85bde79e5cee0588bb46465f6",
+          "sha256": "f42a2301325f95ca4656063f91dd2d4782ac91da3cc0f1ccdd890c1f0d0482d0",
+          "sha1": "6953c78400c62273bb8a7879e1ee2876372acfd6",
+          "md5": "9425bc6b699a4e8c7e6f3936b2b7daa2"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-macosarm64-56c4547-metadata.jar",
+          "url": "test-utils-ktor-macosarm64-56c4547-metadata.jar",
+          "size": 261,
+          "sha512": "fb101b2c3383128ec0f5635844de21a4ec6bf47781586ecfd9e91ab5414750c4596b344e876ba5ad425b4a5d5f8fbf3c22c62e5e8bbb4014b7acac6d23a6f67d",
+          "sha256": "ab0b99d6494ed2b839405269f73f0df382a43f67da71c527453737804a3b49c2",
+          "sha1": "cd85b8d846eb9f3008771c6b7c88a5b658fb2f7f",
+          "md5": "18497ef559790cdf87ab02aaab240923"
+        }
+      ]
+    }
+  ]
+}
