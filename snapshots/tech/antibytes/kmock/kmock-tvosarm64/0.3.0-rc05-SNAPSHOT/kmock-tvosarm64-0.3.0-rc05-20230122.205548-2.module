@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc05-SNAPSHOT/kmock-0.3.0-rc05-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc05-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-tvosarm64-0.3.0-rc05-SNAPSHOT.klib",
+          "size": 202505,
+          "sha512": "34965a58b2832ad673c4a35ff59d6b611c55ba93d42c626712dc8663d046986f85b18d7d30f84132e12f012de9a84fce4f56d3f71df1087a544d9f375c252a69",
+          "sha256": "9e3da724ca70630b6fb5761abd5fb594bb881de8fbde6dd64c58773bf64cd937",
+          "sha1": "fc454126b8d2fc8df4d54b93e9909bc206d01ae5",
+          "md5": "04036cbf984638edf5e436b0302cf301"
+        }
+      ]
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock-tvosarm64-0.3.0-rc05-SNAPSHOT-metadata.jar",
+          "url": "kmock-tvosarm64-0.3.0-rc05-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f7bd0bc0dbf6b5b0754cca195542325e7fb52165d630f17bba8f212bdf3c7e57e54f084443238382b2bbe81dfacfa7b3ac97d975949f0366cb6fb04ef2151dd4",
+          "sha256": "e64953aaec01509e3bfaa26bc17cd7d430265aa3cd9d7ab5ec74780ec25f90d7",
+          "sha1": "126e1b875bdb6322b60f41fd9a707112b4e9ca3d",
+          "md5": "cb0970603bbb304a133d34499538477b"
+        }
+      ]
+    }
+  ]
+}
