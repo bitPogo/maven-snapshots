@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "4827895",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4827895.jar",
+          "url": "antibytes-dokka-configuration-4827895.jar",
+          "size": 7889,
+          "sha512": "71d3cfe06ff6b49f9a90daeba3943f77359e24a10fe3272b8d7b41d0052f3972443cc49002c2e79b7ca3945635ef359e00c81a98692cff771a3e959db52d6be6",
+          "sha256": "050a42c0fb458fb2778ce1b10b73932c5f28ee6260fe567ddec3eb2ec764cd6b",
+          "sha1": "9750671f4e572059af25d14b490e076b6263836e",
+          "md5": "615319d7ebe1cd679441a6a60faa001b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "4827895"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-4827895.jar",
+          "url": "antibytes-dokka-configuration-4827895.jar",
+          "size": 7889,
+          "sha512": "71d3cfe06ff6b49f9a90daeba3943f77359e24a10fe3272b8d7b41d0052f3972443cc49002c2e79b7ca3945635ef359e00c81a98692cff771a3e959db52d6be6",
+          "sha256": "050a42c0fb458fb2778ce1b10b73932c5f28ee6260fe567ddec3eb2ec764cd6b",
+          "sha1": "9750671f4e572059af25d14b490e076b6263836e",
+          "md5": "615319d7ebe1cd679441a6a60faa001b"
+        }
+      ]
+    }
+  ]
+}
