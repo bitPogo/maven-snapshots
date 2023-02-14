@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "b821e91",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-b821e91.jar",
+          "url": "antibytes-publishing-configuration-b821e91.jar",
+          "size": 4768,
+          "sha512": "ad2aa161ac23a03b3389dd817dd7a564cfc3245ad5027b466b79e11dec043ff23f9487e695b3f35f426aedd0e32ff2e62d05e338e672e422bf6c307002dd2ba9",
+          "sha256": "2ad85d3ba0f5b3d96255ce2e113e7664a62116e7b83a5125accf6ac6edd64aa7",
+          "sha1": "6b57d043fb34fc84f59304390e818cbd83f77a55",
+          "md5": "0f58996db2548320d94c5a56b6e71a10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "b821e91"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-b821e91.jar",
+          "url": "antibytes-publishing-configuration-b821e91.jar",
+          "size": 4768,
+          "sha512": "ad2aa161ac23a03b3389dd817dd7a564cfc3245ad5027b466b79e11dec043ff23f9487e695b3f35f426aedd0e32ff2e62d05e338e672e422bf6c307002dd2ba9",
+          "sha256": "2ad85d3ba0f5b3d96255ce2e113e7664a62116e7b83a5125accf6ac6edd64aa7",
+          "sha1": "6b57d043fb34fc84f59304390e818cbd83f77a55",
+          "md5": "0f58996db2548320d94c5a56b6e71a10"
+        }
+      ]
+    }
+  ]
+}
