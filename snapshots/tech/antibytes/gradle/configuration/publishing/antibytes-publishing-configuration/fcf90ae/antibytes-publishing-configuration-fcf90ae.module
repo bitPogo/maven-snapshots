@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "fcf90ae",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-fcf90ae.jar",
+          "url": "antibytes-publishing-configuration-fcf90ae.jar",
+          "size": 5078,
+          "sha512": "c4fcae3b7d80bd01ed5c8a42584a2953a0fdb14c40108c83a59ef58b4c44e475e471fc3bd284cc161d1b3a78541c01f382951e931f6b91cda1724c16611249cb",
+          "sha256": "9daeadad638768c7e630dc4a408529bf824c02258cc271fcc1581e65ed2df3a0",
+          "sha1": "18beffabc5156794d9c15e03e557cd65e0dafe2b",
+          "md5": "ce670a4ae76d9966b549c6a111b345e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "fcf90ae"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-fcf90ae.jar",
+          "url": "antibytes-publishing-configuration-fcf90ae.jar",
+          "size": 5078,
+          "sha512": "c4fcae3b7d80bd01ed5c8a42584a2953a0fdb14c40108c83a59ef58b4c44e475e471fc3bd284cc161d1b3a78541c01f382951e931f6b91cda1724c16611249cb",
+          "sha256": "9daeadad638768c7e630dc4a408529bf824c02258cc271fcc1581e65ed2df3a0",
+          "sha1": "18beffabc5156794d9c15e03e557cd65e0dafe2b",
+          "md5": "ce670a4ae76d9966b549c6a111b345e7"
+        }
+      ]
+    }
+  ]
+}
