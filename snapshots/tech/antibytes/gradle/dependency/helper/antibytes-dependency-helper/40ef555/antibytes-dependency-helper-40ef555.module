@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.helper",
+    "module": "antibytes-dependency-helper",
+    "version": "40ef555",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-40ef555.jar",
+          "url": "antibytes-dependency-helper-40ef555.jar",
+          "size": 69711,
+          "sha512": "62f39d3d7061ebbd7c80b5ae370c39000ff311aa67daec8da7e7b7a9c3acdb80b9c4f80042b98b144cd407cdbb56fed4b449e6002d75087f8d4eb26d68ccb342",
+          "sha256": "ba875dcfd7323b8aa35927eaf180831d7147684a1db26801818586a36bd45343",
+          "sha1": "71190d33dcc28af745df0f81839a404227188764",
+          "md5": "48d1771e185a6d9337cdc56fce7e8f57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.github.ben-manes",
+          "module": "gradle-versions-plugin",
+          "version": {
+            "requires": "0.49.0"
+          }
+        },
+        {
+          "group": "org.owasp",
+          "module": "dependency-check-gradle",
+          "version": {
+            "requires": "8.4.2"
+          }
+        },
+        {
+          "group": "com.squareup.tools.build",
+          "module": "maven-archeologist",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "40ef555"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-helper-40ef555.jar",
+          "url": "antibytes-dependency-helper-40ef555.jar",
+          "size": 69711,
+          "sha512": "62f39d3d7061ebbd7c80b5ae370c39000ff311aa67daec8da7e7b7a9c3acdb80b9c4f80042b98b144cd407cdbb56fed4b449e6002d75087f8d4eb26d68ccb342",
+          "sha256": "ba875dcfd7323b8aa35927eaf180831d7147684a1db26801818586a36bd45343",
+          "sha1": "71190d33dcc28af745df0f81839a404227188764",
+          "md5": "48d1771e185a6d9337cdc56fce7e8f57"
+        }
+      ]
+    }
+  ]
+}
