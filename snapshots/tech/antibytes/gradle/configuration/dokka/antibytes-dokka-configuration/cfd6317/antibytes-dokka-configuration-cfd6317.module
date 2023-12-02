@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "cfd6317",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-cfd6317.jar",
+          "url": "antibytes-dokka-configuration-cfd6317.jar",
+          "size": 8108,
+          "sha512": "4902e41892401ffb3752f1efe8bd6b2ab8c2dc1adb3cf6eaf1a8e1049ff37b96a6908fbb7769c1d096f956aece7daf626b54e08598ee720c9d3200c0ea884c5e",
+          "sha256": "423d51a4da487e26c7f9ce192ff6b570160817b158354c55d3ebce5824aae697",
+          "sha1": "e2a970144bdd66e0cb36c1af02d0da903c3b3399",
+          "md5": "10eee20d001a68903eb3d7bf232760d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cfd6317"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-cfd6317.jar",
+          "url": "antibytes-dokka-configuration-cfd6317.jar",
+          "size": 8108,
+          "sha512": "4902e41892401ffb3752f1efe8bd6b2ab8c2dc1adb3cf6eaf1a8e1049ff37b96a6908fbb7769c1d096f956aece7daf626b54e08598ee720c9d3200c0ea884c5e",
+          "sha256": "423d51a4da487e26c7f9ce192ff6b570160817b158354c55d3ebce5824aae697",
+          "sha1": "e2a970144bdd66e0cb36c1af02d0da903c3b3399",
+          "md5": "10eee20d001a68903eb3d7bf232760d9"
+        }
+      ]
+    }
+  ]
+}

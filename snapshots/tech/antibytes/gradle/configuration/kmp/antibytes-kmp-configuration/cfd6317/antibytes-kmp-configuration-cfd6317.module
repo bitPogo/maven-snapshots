@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "cfd6317",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-cfd6317.jar",
+          "url": "antibytes-kmp-configuration-cfd6317.jar",
+          "size": 73645,
+          "sha512": "d57a33ff6b3e63ffb9c8e72409eabe6e26518e7a40f96541a9245f37aaaa3a382b2926dcc6e75c20c1470d862f2ce78b6a4b9dc68b208330512bc317df8a930a",
+          "sha256": "890e53202c804c7247612b16b9592df059ed7b4cf4f303c924f27ab54331fb96",
+          "sha1": "5066954d17d705dbc9e0cf0e01aafd857b7cde52",
+          "md5": "47f5d2a3b56ae30c60c13e98f29c12cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "cfd6317"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-cfd6317.jar",
+          "url": "antibytes-kmp-configuration-cfd6317.jar",
+          "size": 73645,
+          "sha512": "d57a33ff6b3e63ffb9c8e72409eabe6e26518e7a40f96541a9245f37aaaa3a382b2926dcc6e75c20c1470d862f2ce78b6a4b9dc68b208330512bc317df8a930a",
+          "sha256": "890e53202c804c7247612b16b9592df059ed7b4cf4f303c924f27ab54331fb96",
+          "sha1": "5066954d17d705dbc9e0cf0e01aafd857b7cde52",
+          "md5": "47f5d2a3b56ae30c60c13e98f29c12cc"
+        }
+      ]
+    }
+  ]
+}
