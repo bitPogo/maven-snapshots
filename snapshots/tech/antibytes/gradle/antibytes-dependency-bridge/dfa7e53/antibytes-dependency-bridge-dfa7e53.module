@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "dfa7e53",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-dfa7e53.jar",
+          "url": "antibytes-dependency-bridge-dfa7e53.jar",
+          "size": 39844,
+          "sha512": "9b10a147be3cef85debdc27256898e14714b08e725732c5c2c95a17940e9eb4713e523e054f9cce0fe23991f22e1ca29e8ae4f9a646ba186c0de72017a55a33e",
+          "sha256": "c64a55781f90d9244445438d90481a1ce90fb03a53a4ff3ce7d9805c705781c9",
+          "sha1": "c2325080cc35d71db3938861e071317a43f2c255",
+          "md5": "b1d7a82bfc2af88f79d8fe5779cf693c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dfa7e53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-dfa7e53.jar",
+          "url": "antibytes-dependency-bridge-dfa7e53.jar",
+          "size": 39844,
+          "sha512": "9b10a147be3cef85debdc27256898e14714b08e725732c5c2c95a17940e9eb4713e523e054f9cce0fe23991f22e1ca29e8ae4f9a646ba186c0de72017a55a33e",
+          "sha256": "c64a55781f90d9244445438d90481a1ce90fb03a53a4ff3ce7d9805c705781c9",
+          "sha1": "c2325080cc35d71db3938861e071317a43f2c255",
+          "md5": "b1d7a82bfc2af88f79d8fe5779cf693c"
+        }
+      ]
+    }
+  ]
+}

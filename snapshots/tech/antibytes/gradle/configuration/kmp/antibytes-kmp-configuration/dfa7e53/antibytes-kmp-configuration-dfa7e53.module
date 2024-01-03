@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "dfa7e53",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-dfa7e53.jar",
+          "url": "antibytes-kmp-configuration-dfa7e53.jar",
+          "size": 73645,
+          "sha512": "224608fe3d989409f3bb74a186831800795a463ccb40aa74e52ebc0ee45ee4e3fecb8866bd69bb7215d87656b09a341644e32842f9d8c5f3b527b2778cd74337",
+          "sha256": "6042e8444131041e0110d50efa0bfbd99aa3e75af9b6865bc4bcd1a2c6f68830",
+          "sha1": "58056e249542aac68be8103945664e28a3355a63",
+          "md5": "3e1c8624ec17bc7ccb2307481a8e7422"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dfa7e53"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-dfa7e53.jar",
+          "url": "antibytes-kmp-configuration-dfa7e53.jar",
+          "size": 73645,
+          "sha512": "224608fe3d989409f3bb74a186831800795a463ccb40aa74e52ebc0ee45ee4e3fecb8866bd69bb7215d87656b09a341644e32842f9d8c5f3b527b2778cd74337",
+          "sha256": "6042e8444131041e0110d50efa0bfbd99aa3e75af9b6865bc4bcd1a2c6f68830",
+          "sha1": "58056e249542aac68be8103945664e28a3355a63",
+          "md5": "3e1c8624ec17bc7ccb2307481a8e7422"
+        }
+      ]
+    }
+  ]
+}
