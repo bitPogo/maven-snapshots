@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.publishing",
+    "module": "antibytes-publishing-configuration",
+    "version": "afcad58",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-afcad58.jar",
+          "url": "antibytes-publishing-configuration-afcad58.jar",
+          "size": 5125,
+          "sha512": "225a2295fd2cc53d4f0de69bf17236089cbf05ce8570f0f6a3c61f580e30d23cbed73094fd2b48fac17347028d0bd8198434f0588e43603263c83c348c2c8675",
+          "sha256": "c2864feac91cfd661997aab8a2f367690cd7eb4af3076508400390fc5f8ea243",
+          "sha1": "dd25c81ceb10b23a2d388d511a2201b42bf87601",
+          "md5": "96b953a640e9956353a27ad43cb2fc3e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.publishing",
+          "module": "antibytes-publishing",
+          "version": {
+            "requires": "afcad58"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-configuration-afcad58.jar",
+          "url": "antibytes-publishing-configuration-afcad58.jar",
+          "size": 5125,
+          "sha512": "225a2295fd2cc53d4f0de69bf17236089cbf05ce8570f0f6a3c61f580e30d23cbed73094fd2b48fac17347028d0bd8198434f0588e43603263c83c348c2c8675",
+          "sha256": "c2864feac91cfd661997aab8a2f367690cd7eb4af3076508400390fc5f8ea243",
+          "sha1": "dd25c81ceb10b23a2d388d511a2201b42bf87601",
+          "md5": "96b953a640e9956353a27ad43cb2fc3e"
+        }
+      ]
+    }
+  ]
+}

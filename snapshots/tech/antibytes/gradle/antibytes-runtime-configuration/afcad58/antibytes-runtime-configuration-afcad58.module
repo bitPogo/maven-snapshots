@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "afcad58",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-afcad58.jar",
+          "url": "antibytes-runtime-configuration-afcad58.jar",
+          "size": 9666,
+          "sha512": "01f5a641d35c66bbf9c90728c0a7090474a96ec4b1d97fd3acc641f9d0048f4cf2aa12f62b05ca979de0c44ea57706e510b04b0c398587fe94f1afef835e2c72",
+          "sha256": "e14f011107ee9ec59ffc8f1965e7a377245ab54d2ebc82bbc511706d618f508f",
+          "sha1": "3c6251c461b793d564343514e3b9a81ec90b2810",
+          "md5": "daa80b0b344d6fe6841c8e6e68b33b7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "afcad58"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-afcad58.jar",
+          "url": "antibytes-runtime-configuration-afcad58.jar",
+          "size": 9666,
+          "sha512": "01f5a641d35c66bbf9c90728c0a7090474a96ec4b1d97fd3acc641f9d0048f4cf2aa12f62b05ca979de0c44ea57706e510b04b0c398587fe94f1afef835e2c72",
+          "sha256": "e14f011107ee9ec59ffc8f1965e7a377245ab54d2ebc82bbc511706d618f508f",
+          "sha1": "3c6251c461b793d564343514e3b9a81ec90b2810",
+          "md5": "daa80b0b344d6fe6841c8e6e68b33b7f"
+        }
+      ]
+    }
+  ]
+}

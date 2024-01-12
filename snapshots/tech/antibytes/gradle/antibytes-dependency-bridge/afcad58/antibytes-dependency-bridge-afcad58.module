@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "afcad58",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-afcad58.jar",
+          "url": "antibytes-dependency-bridge-afcad58.jar",
+          "size": 39844,
+          "sha512": "434279ea6a8f853669b477d5de0542f70a4b530138c86f59691b12ee0d56bc1ab884ca13f53f252445d731900c8e4f5969c97d7c54e73c8be42c30c80065d28b",
+          "sha256": "67356d628026869e08ee915b8647d1a51f05090a66facf9e17cde357745a494d",
+          "sha1": "42554602fdd6a42c0364a3714a0617cdad63f93b",
+          "md5": "addefec0a5c834c368877cafc1779a01"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "afcad58"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-afcad58.jar",
+          "url": "antibytes-dependency-bridge-afcad58.jar",
+          "size": 39844,
+          "sha512": "434279ea6a8f853669b477d5de0542f70a4b530138c86f59691b12ee0d56bc1ab884ca13f53f252445d731900c8e4f5969c97d7c54e73c8be42c30c80065d28b",
+          "sha256": "67356d628026869e08ee915b8647d1a51f05090a66facf9e17cde357745a494d",
+          "sha1": "42554602fdd6a42c0364a3714a0617cdad63f93b",
+          "md5": "addefec0a5c834c368877cafc1779a01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.dokka",
+    "module": "antibytes-dokka-configuration",
+    "version": "afcad58",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-afcad58.jar",
+          "url": "antibytes-dokka-configuration-afcad58.jar",
+          "size": 8108,
+          "sha512": "f3cd014b3fa25fae296add05f3c6017faa88d9c6bea8eb46e41c94fe4ee976aebceb3d8947f471aab6e79d4d43c90d43ac5256303e6641bb9ca6b04a8b4d44c2",
+          "sha256": "beb9471ca392494d424c18dc842305b2815c0f091610abf3098504a73aa5c70d",
+          "sha1": "4c0285e7e8f6fd0e3b1f1e2978282c5bfee6e296",
+          "md5": "6341f071f0651f3a0d8c52825d9117ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "afcad58"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dokka-configuration-afcad58.jar",
+          "url": "antibytes-dokka-configuration-afcad58.jar",
+          "size": 8108,
+          "sha512": "f3cd014b3fa25fae296add05f3c6017faa88d9c6bea8eb46e41c94fe4ee976aebceb3d8947f471aab6e79d4d43c90d43ac5256303e6641bb9ca6b04a8b4d44c2",
+          "sha256": "beb9471ca392494d424c18dc842305b2815c0f091610abf3098504a73aa5c70d",
+          "sha1": "4c0285e7e8f6fd0e3b1f1e2978282c5bfee6e296",
+          "md5": "6341f071f0651f3a0d8c52825d9117ac"
+        }
+      ]
+    }
+  ]
+}

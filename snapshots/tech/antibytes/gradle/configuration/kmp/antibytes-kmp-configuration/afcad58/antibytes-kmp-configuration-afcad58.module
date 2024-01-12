@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "afcad58",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-afcad58.jar",
+          "url": "antibytes-kmp-configuration-afcad58.jar",
+          "size": 73645,
+          "sha512": "3c3c63b90cacf2159ec60e5fa9b4589db24d91dfe3f811dcf0bef324847f8c73e46a9327b3c354aa9d7d426e1fe14bc14a19a4ca7a5a9433e3da5d0c8cb7f5bb",
+          "sha256": "bdd08a94977a77a5e5034eb18c89b4f6d19a89cd83b579fc5d9e24df33ff49be",
+          "sha1": "f8b3dd3ce3f916b0c492e94a84a235d65b5c9298",
+          "md5": "3a4bc666957053b06d53e1b6fa81d23a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "afcad58"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-afcad58.jar",
+          "url": "antibytes-kmp-configuration-afcad58.jar",
+          "size": 73645,
+          "sha512": "3c3c63b90cacf2159ec60e5fa9b4589db24d91dfe3f811dcf0bef324847f8c73e46a9327b3c354aa9d7d426e1fe14bc14a19a4ca7a5a9433e3da5d0c8cb7f5bb",
+          "sha256": "bdd08a94977a77a5e5034eb18c89b4f6d19a89cd83b579fc5d9e24df33ff49be",
+          "sha1": "f8b3dd3ce3f916b0c492e94a84a235d65b5c9298",
+          "md5": "3a4bc666957053b06d53e1b6fa81d23a"
+        }
+      ]
+    }
+  ]
+}
