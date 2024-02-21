@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "d067446",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d067446.jar",
+          "url": "antibytes-kmp-configuration-d067446.jar",
+          "size": 59812,
+          "sha512": "3b3897119bba523a356e48f380d0fd508c86fc5a0a7422622f4628e31f4e531cc5191bc047afc9eca3faff15a21031b08a8b9cdf8fa83eed47cce9f607123e8e",
+          "sha256": "9ab58cac5a984bed817bd887d2fd765833f71e6067ab268b68ccc5ec1e126d67",
+          "sha1": "373aa4bd231ad7b4bec6ff56960eb1f8608c6d26",
+          "md5": "5b7d9e66ee1ef66804824816ce43c8bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "d067446"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-d067446.jar",
+          "url": "antibytes-kmp-configuration-d067446.jar",
+          "size": 59812,
+          "sha512": "3b3897119bba523a356e48f380d0fd508c86fc5a0a7422622f4628e31f4e531cc5191bc047afc9eca3faff15a21031b08a8b9cdf8fa83eed47cce9f607123e8e",
+          "sha256": "9ab58cac5a984bed817bd887d2fd765833f71e6067ab268b68ccc5ec1e126d67",
+          "sha1": "373aa4bd231ad7b4bec6ff56960eb1f8608c6d26",
+          "md5": "5b7d9e66ee1ef66804824816ce43c8bf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "d067446",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "d067446"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-d067446.jar",
+          "url": "antibytes-dependency-settings-d067446.jar",
+          "size": 17996,
+          "sha512": "b2191a1bc5abdc8a2a126df7b9a2661e7e56c2da3467fd994d8f24acf31e4b8c11c7eff9adcc6bffec5e47cda5d2b68a06d375e508373d76ff482402a4dd5734",
+          "sha256": "fa19c3621d4d5d650d4deb31912e0674499743e8d6184c07ab1aa9e1b4b9b290",
+          "sha1": "6f1e641e18124ec6a07ddf6d90ec701f88f01eb1",
+          "md5": "6616415139166d6525892375f8c5eedc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "d067446"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-d067446.jar",
+          "url": "antibytes-dependency-settings-d067446.jar",
+          "size": 17996,
+          "sha512": "b2191a1bc5abdc8a2a126df7b9a2661e7e56c2da3467fd994d8f24acf31e4b8c11c7eff9adcc6bffec5e47cda5d2b68a06d375e508373d76ff482402a4dd5734",
+          "sha256": "fa19c3621d4d5d650d4deb31912e0674499743e8d6184c07ab1aa9e1b4b9b290",
+          "sha1": "6f1e641e18124ec6a07ddf6d90ec701f88f01eb1",
+          "md5": "6616415139166d6525892375f8c5eedc"
+        }
+      ]
+    }
+  ]
+}
