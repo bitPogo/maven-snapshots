@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.java",
+    "module": "antibytes-java-configuration",
+    "version": "ae101dc",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-java-configuration-ae101dc.jar",
+          "url": "antibytes-java-configuration-ae101dc.jar",
+          "size": 3901,
+          "sha512": "29d9bbbd3dabd6f2743edd88bb91573f6b7c1afc3013560c3d644be002936c546fd90fd9a15289d774a02cd4141013c6b12a32a0e73276d31e499428e3abbd9c",
+          "sha256": "1f6a71c532844486f32a30d7b597a4126f4b816732022496168d19dee26c6a1a",
+          "sha1": "98a9028e9ffbcb1c86c3ab0a1472df260dfe8393",
+          "md5": "087755900172073bcec6931e9c01e370"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "ae101dc"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-java-configuration-ae101dc.jar",
+          "url": "antibytes-java-configuration-ae101dc.jar",
+          "size": 3901,
+          "sha512": "29d9bbbd3dabd6f2743edd88bb91573f6b7c1afc3013560c3d644be002936c546fd90fd9a15289d774a02cd4141013c6b12a32a0e73276d31e499428e3abbd9c",
+          "sha256": "1f6a71c532844486f32a30d7b597a4126f4b816732022496168d19dee26c6a1a",
+          "sha1": "98a9028e9ffbcb1c86c3ab0a1472df260dfe8393",
+          "md5": "087755900172073bcec6931e9c01e370"
+        }
+      ]
+    }
+  ]
+}
