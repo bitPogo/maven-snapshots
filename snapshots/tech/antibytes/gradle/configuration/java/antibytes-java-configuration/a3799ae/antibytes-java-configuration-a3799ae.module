@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.java",
+    "module": "antibytes-java-configuration",
+    "version": "a3799ae",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-java-configuration-a3799ae.jar",
+          "url": "antibytes-java-configuration-a3799ae.jar",
+          "size": 3901,
+          "sha512": "b780c1c29352dc05637620508f2c1e820b84140bc9f97899e430650224e5f78ca064fceee6b33ab79ff057c2dc871acdd16bcd28f667bea1e77f95c9b110e960",
+          "sha256": "6d1bbc060374b7b45ad43bb6f4cc1d83915a394665068b52673ef22a9cc0f65e",
+          "sha1": "e82e2ec476339402b0b84a94bf3de375adcfbf75",
+          "md5": "c1e052090111e097ebf49492dd7f73e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "a3799ae"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-java-configuration-a3799ae.jar",
+          "url": "antibytes-java-configuration-a3799ae.jar",
+          "size": 3901,
+          "sha512": "b780c1c29352dc05637620508f2c1e820b84140bc9f97899e430650224e5f78ca064fceee6b33ab79ff057c2dc871acdd16bcd28f667bea1e77f95c9b110e960",
+          "sha256": "6d1bbc060374b7b45ad43bb6f4cc1d83915a394665068b52673ef22a9cc0f65e",
+          "sha1": "e82e2ec476339402b0b84a94bf3de375adcfbf75",
+          "md5": "c1e052090111e097ebf49492dd7f73e4"
+        }
+      ]
+    }
+  ]
+}
