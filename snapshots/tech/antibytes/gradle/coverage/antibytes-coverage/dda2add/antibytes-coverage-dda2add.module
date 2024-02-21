@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.coverage",
+    "module": "antibytes-coverage",
+    "version": "dda2add",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-coverage-dda2add.jar",
+          "url": "antibytes-coverage-dda2add.jar",
+          "size": 146046,
+          "sha512": "ba89c2e3d984cf999d9141fecc0e763146eb6ad7f7d1a059e4134903bf545731336cfd4a11178805346f8a4ee07e6ca20023648b0e4da2844b47777efed47012",
+          "sha256": "0d0bfdd3e8b890dd1b8426a72fd1513e89f1ab284d21c56e6e3eea50f53f8a65",
+          "sha1": "6a0450caab0258f92ef15dc8be3c5f68b3ef48d5",
+          "md5": "38be399a508456e2dd13abd50177dc43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jacoco",
+          "module": "org.jacoco.core",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dda2add"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-coverage-dda2add.jar",
+          "url": "antibytes-coverage-dda2add.jar",
+          "size": 146046,
+          "sha512": "ba89c2e3d984cf999d9141fecc0e763146eb6ad7f7d1a059e4134903bf545731336cfd4a11178805346f8a4ee07e6ca20023648b0e4da2844b47777efed47012",
+          "sha256": "0d0bfdd3e8b890dd1b8426a72fd1513e89f1ab284d21c56e6e3eea50f53f8a65",
+          "sha1": "6a0450caab0258f92ef15dc8be3c5f68b3ef48d5",
+          "md5": "38be399a508456e2dd13abd50177dc43"
+        }
+      ]
+    }
+  ]
+}

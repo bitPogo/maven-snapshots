@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.kmp",
+    "module": "antibytes-kmp-configuration",
+    "version": "dda2add",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-dda2add.jar",
+          "url": "antibytes-kmp-configuration-dda2add.jar",
+          "size": 59340,
+          "sha512": "45f1051f38eb991f2c5b5bc2a72c823488f9e7e28dcb163d41b2a7343c150b9da0a6a0a56671c98f4a4f3e8e6e22b6dbe789c763a8f217cb953c63c6b263ca7e",
+          "sha256": "bb3dc15d5c6a0a50e6719be1ae28939bf9370ab6a23ec5e705737c61c525cd5f",
+          "sha1": "2f57babe6fce1f3283726a69606c8b4467f509d3",
+          "md5": "c0b0230ed31c37fb478fed401e94031a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dda2add"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-kmp-configuration-dda2add.jar",
+          "url": "antibytes-kmp-configuration-dda2add.jar",
+          "size": 59340,
+          "sha512": "45f1051f38eb991f2c5b5bc2a72c823488f9e7e28dcb163d41b2a7343c150b9da0a6a0a56671c98f4a4f3e8e6e22b6dbe789c763a8f217cb953c63c6b263ca7e",
+          "sha256": "bb3dc15d5c6a0a50e6719be1ae28939bf9370ab6a23ec5e705737c61c525cd5f",
+          "sha1": "2f57babe6fce1f3283726a69606c8b4467f509d3",
+          "md5": "c0b0230ed31c37fb478fed401e94031a"
+        }
+      ]
+    }
+  ]
+}

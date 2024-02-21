@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.configuration.java",
+    "module": "antibytes-java-configuration",
+    "version": "dda2add",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-java-configuration-dda2add.jar",
+          "url": "antibytes-java-configuration-dda2add.jar",
+          "size": 3901,
+          "sha512": "0371e5bbff2e02011b9badc8a337508c22afd6bc157ca3e1a1224161964c46140bd2f15777ae757f8b048588151857a3955704e9516430a1b641a3124cf99646",
+          "sha256": "d54c1e03026f03795283cdb4897993f7fc6d2f2386c6dd699303301921288766",
+          "sha1": "7f3b16e8f7254a2a9311aa67cf9e8da0c0a6c202",
+          "md5": "db4940b2b9476036cb3c5fdc010f88c2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dda2add"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-java-configuration-dda2add.jar",
+          "url": "antibytes-java-configuration-dda2add.jar",
+          "size": 3901,
+          "sha512": "0371e5bbff2e02011b9badc8a337508c22afd6bc157ca3e1a1224161964c46140bd2f15777ae757f8b048588151857a3955704e9516430a1b641a3124cf99646",
+          "sha256": "d54c1e03026f03795283cdb4897993f7fc6d2f2386c6dd699303301921288766",
+          "sha1": "7f3b16e8f7254a2a9311aa67cf9e8da0c0a6c202",
+          "md5": "db4940b2b9476036cb3c5fdc010f88c2"
+        }
+      ]
+    }
+  ]
+}

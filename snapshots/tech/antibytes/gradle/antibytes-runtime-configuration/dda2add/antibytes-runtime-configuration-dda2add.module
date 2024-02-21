@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "dda2add",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-dda2add.jar",
+          "url": "antibytes-runtime-configuration-dda2add.jar",
+          "size": 20276,
+          "sha512": "ee2fdc6ba75ac25761dba53dab80cbeb448fce82786821c202b69b6edef32e2f3b73c1bb2bd7cff1f6e470fdcd31f0e4057614ee8b9def946c1c921c800f8d39",
+          "sha256": "ade75077548d54f8d3fbbc132994a606f923cbcaaa18f5f76b8e726a5381a896",
+          "sha1": "96c8fdf1767b6b127c1611cfe879db260037a133",
+          "md5": "854c968765ca3b7fc5aca7b6bd6a27de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "dda2add"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-dda2add.jar",
+          "url": "antibytes-runtime-configuration-dda2add.jar",
+          "size": 20276,
+          "sha512": "ee2fdc6ba75ac25761dba53dab80cbeb448fce82786821c202b69b6edef32e2f3b73c1bb2bd7cff1f6e470fdcd31f0e4057614ee8b9def946c1c921c800f8d39",
+          "sha256": "ade75077548d54f8d3fbbc132994a606f923cbcaaa18f5f76b8e726a5381a896",
+          "sha1": "96c8fdf1767b6b127c1611cfe879db260037a133",
+          "md5": "854c968765ca3b7fc5aca7b6bd6a27de"
+        }
+      ]
+    }
+  ]
+}
