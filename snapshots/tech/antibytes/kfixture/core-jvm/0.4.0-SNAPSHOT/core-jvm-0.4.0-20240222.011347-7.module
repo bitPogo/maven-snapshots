@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "size": 288796,
+          "sha512": "f3bb4a163a21343707ac1f22ea52261045ef284148b246bbea02927962721289c4566d8b79b49509fc12eefcb97d73d169517cba8d091586246dbadd3cebc867",
+          "sha256": "d3fe16a826edf6853c36662244e17d14af2d94841f026679163592ccdcafff66",
+          "sha1": "8eff9acb7c06c20e2215145a7362dfa540148e2e",
+          "md5": "9bdf4cb8128454024994a54623f304b2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "url": "core-jvm-0.4.0-SNAPSHOT.jar",
+          "size": 288796,
+          "sha512": "f3bb4a163a21343707ac1f22ea52261045ef284148b246bbea02927962721289c4566d8b79b49509fc12eefcb97d73d169517cba8d091586246dbadd3cebc867",
+          "sha256": "d3fe16a826edf6853c36662244e17d14af2d94841f026679163592ccdcafff66",
+          "sha1": "8eff9acb7c06c20e2215145a7362dfa540148e2e",
+          "md5": "9bdf4cb8128454024994a54623f304b2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-jvm-0.4.0-SNAPSHOT-sources.jar",
+          "url": "core-jvm-0.4.0-SNAPSHOT-sources.jar",
+          "size": 48770,
+          "sha512": "d317c522a7c6c1010f9fd581cc2bbf76bf671f613529c2ea8460a96fcf6b5a95f74899a5b9cec560b496a3bddf12b1bd326a93816c8424a8b2f20d4430fbdc86",
+          "sha256": "4645b21a20854b54713d0ae688fa934ca2172ce84c4a9387cbd6a116981b81bb",
+          "sha1": "0b49dfc857b904e583589af7006c1a2704a31732",
+          "md5": "e9e4fbb49786475f4e52338fd4123183"
+        }
+      ]
+    }
+  ]
+}
