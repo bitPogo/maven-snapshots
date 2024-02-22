@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils/b6c6e6c/test-utils-b6c6e6c.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils",
+    "version": "b6c6e6c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils.klib",
+          "url": "test-utils-mingwx64-b6c6e6c.klib",
+          "size": 8345,
+          "sha512": "7e0d4e97b056b8f84386bb76b68081210ab756891ffd7167de642ca0c827df41562077857c9e7d78190e213dd29ec4019540c3b0badab0f8fb02835b8145ff6a",
+          "sha256": "d67a75175e03cbc81a088ea7aef3454c8c065461accd7ed18a5e70ff4a4329ff",
+          "sha1": "f330412730419265278bc04b8615420399f6c6a8",
+          "md5": "8bd4b23f2c154a47ec7c654df050e2ef"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "test-utils-mingwx64-b6c6e6c-sources.jar",
+          "url": "test-utils-mingwx64-b6c6e6c-sources.jar",
+          "size": 2202,
+          "sha512": "200f256b59ba175210138bed146ee54ab58c9bb91f071774698eb6b3f4920f792214d2d44a1cc764422cb2c09da1a0773d4d288080e067e60263b96f2ed68050",
+          "sha256": "9e0bd104bc203c511c12aaf2143514ee32a59c775ece92a04e7ee764ee60affa",
+          "sha1": "773bcb344a1f6fd820f6ee6e62aea2b59ecfa180",
+          "md5": "8b3c7f259a640a3d1e2ffd34b7f29645"
+        }
+      ]
+    }
+  ]
+}
