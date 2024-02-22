@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core.klib",
+          "url": "core-tvosx64-0.4.0-SNAPSHOT.klib",
+          "size": 113541,
+          "sha512": "ed5d28a346234b22800ac00004a620b40c8fc6c8a28613da741b7fc95c2e924ed0629410a55474718fe8bbbd5143e36af4cc6ee22634c1f7a9e9fc44eb04fa51",
+          "sha256": "33fe525be3b848afc8c0cf7bdb19f5eb43cac064da9cae36b71f335461379a2f",
+          "sha1": "8334739f98891bc35158216272d1b47117fed910",
+          "md5": "d5449a3599c0b86bfa6b16749c0c3dca"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-tvosx64-0.4.0-SNAPSHOT-sources.jar",
+          "url": "core-tvosx64-0.4.0-SNAPSHOT-sources.jar",
+          "size": 48843,
+          "sha512": "02b779d206e7862a26b0330fcb090100c9d196fbc28bceaff452c2dded1de091c242d638767a6b5970fce31db3f59942f32ea8632beee3df70a6e4e5e463cc42",
+          "sha256": "e839d09e900a7efe6e276e9b64eccc1d8325fbf7fd254ff72deeb2935868c75d",
+          "sha1": "95cb16d25a14e253822596920de6c0903afb2ff3",
+          "md5": "462cfdf835b3bc65281d914ae146d5d4"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-tvosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "url": "core-tvosx64-0.4.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1ab941d6f1c229564d3b1385d2ce6adee228bbdb983f7ce302df29951406215aba5413fd9229fcab65c7d4fe3a24994554570ed10e4b2e1ba464d6316733bc0e",
+          "sha256": "65788f8ae38f48bb475a0648afee96661e6602df93b4e187afe48fefbefb7bb5",
+          "sha1": "582d8bdd02ace5608c1ccd788a913774a7c0018d",
+          "md5": "2b2005faf9d18059503a28bbbacbf3b8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktx-datetime/0.4.0-SNAPSHOT/ktx-datetime-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "ktx-datetime",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.kfixture",
+          "module": "core",
+          "version": {
+            "requires": "0.4.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktx-datetime.klib",
+          "url": "ktx-datetime-mingwx64-0.4.0-SNAPSHOT.klib",
+          "size": 36905,
+          "sha512": "8fdb10378f42af0f439c20770807029ce0abda1b1ec2eae5603a8cd5e3eb635f1c608a9f81383a62dd4b373fd87c91908a2fbae0b2ccbf8540ea9e20241146bc",
+          "sha256": "42e9239dc8a7ceeaa1840b4ffe5eb06e5f902948dfa9e9b4638b4641bfbd3d67",
+          "sha1": "e8c15a23d32d598b3192798648a06642d05f7add",
+          "md5": "38e9648a47abbd8244c158d67f17bf12"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ktx-datetime-mingwx64-0.4.0-SNAPSHOT-sources.jar",
+          "url": "ktx-datetime-mingwx64-0.4.0-SNAPSHOT-sources.jar",
+          "size": 16088,
+          "sha512": "2fd1093b4f66fb86460e0e5fc46d3c82d6d649e51f6fa67d86c49ee2405d528475c31f450f406b1a2be2e691d1f52d71036cf571bf342b1c7bbfdb18aacafc58",
+          "sha256": "ddfeada0f92e68af51cd57f3ddcf63f5349e6ad12c9b5c93c0313015c5cc3e8e",
+          "sha1": "e3f7b5b02498f31f31ff09a28221f9502399b3a2",
+          "md5": "b2ce74b02e7d0b4b4cf6bb0c3c064bd4"
+        }
+      ]
+    }
+  ]
+}
