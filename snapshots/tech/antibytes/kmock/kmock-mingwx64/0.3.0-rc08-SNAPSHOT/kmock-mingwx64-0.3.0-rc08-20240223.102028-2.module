@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmock/0.3.0-rc08-SNAPSHOT/kmock-0.3.0-rc08-SNAPSHOT.module",
+    "group": "tech.antibytes.kmock",
+    "module": "kmock",
+    "version": "0.3.0-rc08-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.23.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "2.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmock.klib",
+          "url": "kmock-mingwx64-0.3.0-rc08-SNAPSHOT.klib",
+          "size": 217283,
+          "sha512": "61794006347b293decdd7823b99957431a25a70c7971b10c85435f95b1b2a837c2ed26a910f54f66623bebea34b8eee4b8a39255ccf228a75166e9b925c0aafb",
+          "sha256": "21cf4e9426b3235d529084f59988349a922cb0ead293f10cc37e9401558e65f5",
+          "sha1": "601a72d51f666fc4137816db5c0a856cd16f1d16",
+          "md5": "e857659c42009b4801adf0820e2d727a"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kmock-mingwx64-0.3.0-rc08-SNAPSHOT-sources.jar",
+          "url": "kmock-mingwx64-0.3.0-rc08-SNAPSHOT-sources.jar",
+          "size": 48100,
+          "sha512": "80f0aa545d7e180a02a1b07d61e0e9ed8adc74b15b4f0232d30202d72458fb5ee0eb40aeb03bed10eb7ed2b643259fb9de798f765b19f9257a1d93068c7b57ea",
+          "sha256": "db643642415893e58506c7c199ea3a3de348fb2f04bee56b78caf234375a8f90",
+          "sha1": "4cfdf868cdc43d8d60f3e0a23222f5ad19d30f98",
+          "md5": "e617591e4d41f119fa6297d6dd241b57"
+        }
+      ]
+    }
+  ]
+}
