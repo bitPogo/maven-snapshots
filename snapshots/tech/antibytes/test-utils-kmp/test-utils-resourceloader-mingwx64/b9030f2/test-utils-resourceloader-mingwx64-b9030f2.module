@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-resourceloader/b9030f2/test-utils-resourceloader-b9030f2.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-resourceloader",
+    "version": "b9030f2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader.klib",
+          "url": "test-utils-resourceloader-mingwx64-b9030f2.klib",
+          "size": 14218,
+          "sha512": "3db0a4143d56621c0ac8b7cbd508d46b98be0c11bd9192ba86b5e807ea2a90f200e3fc05ec339f2868077085b3554d300e3fa40681fd48a7e9e8a5e16a03a428",
+          "sha256": "56a84b0661af9bb6c2b9f9e09ad37d0a5751dc16cb3e7c07854946f5252b339c",
+          "sha1": "830fc06f2f167ccd989bd5dc8a0caf90d96244d4",
+          "md5": "e3ebed1ac663cc384efb9ad0676555d7"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "test-utils-resourceloader-mingwx64-b9030f2-sources.jar",
+          "url": "test-utils-resourceloader-mingwx64-b9030f2-sources.jar",
+          "size": 4241,
+          "sha512": "284172150658cfb9dae6c2bb10bbd5de382a8193d892540a4de60322cb16b05740a160fc4f827c092194ab0e3983419cb75c9d52eee7cf9cf1ac22b32a8f7d7b",
+          "sha256": "28c33fb0c5429879a7515dfb1ee5400a354f30a17cda3a32c13cec2fd413b7da",
+          "sha1": "e6bc305f912fc8fc1e733215728491f83d594bd4",
+          "md5": "935272aedc89d60202c3ad87a167495a"
+        }
+      ]
+    }
+  ]
+}

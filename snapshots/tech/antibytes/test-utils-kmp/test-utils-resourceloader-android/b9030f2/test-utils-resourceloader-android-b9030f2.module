@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-resourceloader/b9030f2/test-utils-resourceloader-b9030f2.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-resourceloader",
+    "version": "b9030f2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader-release.aar",
+          "url": "test-utils-resourceloader-android-b9030f2.aar",
+          "size": 5384,
+          "sha512": "a0941397ad9119c315393faf8ff16b2a52e112d136f8a829687ab2f7080dde262fed87ba375345976fe4ea425e3715cecc116b2a928e6f043b4dcf848146299b",
+          "sha256": "2be284721c2c8bcf803fa8691b6979da45b1e8ab37b00c8c4e0bef868d8be52a",
+          "sha1": "efb067b2f93f2ae3012aab9800e0e64279330d2f",
+          "md5": "01749c7855a4f700db40b316cb4c6421"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader-release.aar",
+          "url": "test-utils-resourceloader-android-b9030f2.aar",
+          "size": 5384,
+          "sha512": "a0941397ad9119c315393faf8ff16b2a52e112d136f8a829687ab2f7080dde262fed87ba375345976fe4ea425e3715cecc116b2a928e6f043b4dcf848146299b",
+          "sha256": "2be284721c2c8bcf803fa8691b6979da45b1e8ab37b00c8c4e0bef868d8be52a",
+          "sha1": "efb067b2f93f2ae3012aab9800e0e64279330d2f",
+          "md5": "01749c7855a4f700db40b316cb4c6421"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-resourceloader-android-b9030f2-sources.jar",
+          "url": "test-utils-resourceloader-android-b9030f2-sources.jar",
+          "size": 4761,
+          "sha512": "f3a7f03907fbf41f011eb89b66da1c9e9aedfeb2009c66763eab65d2151d1830bc6bd97cf652b5d32b053281a2780fba601837d32ca15818ca1d7637c84424c3",
+          "sha256": "646b4c32e3b3c96ebc248b80eb240b0eae6d85fda782bc9e19b0622602167e25",
+          "sha1": "92c6db678f8651b8f0e716a451b9ae708092ab0e",
+          "md5": "f500bbcf5e7fc09cf5b9fc09aaad78e2"
+        }
+      ]
+    }
+  ]
+}

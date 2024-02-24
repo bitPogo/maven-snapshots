@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-resourceloader/b9030f2/test-utils-resourceloader-b9030f2.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-resourceloader",
+    "version": "b9030f2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader.klib",
+          "url": "test-utils-resourceloader-linuxarm64-b9030f2.klib",
+          "size": 14235,
+          "sha512": "e41d2bdc72ba676ec43b3e3d37b32aa0abeb005f35bc3d446d9b94562a1dd162db045bd2ca387d3b2d07e42a4b7893a2643a35fa8313f1e67851327c7c0bcf52",
+          "sha256": "96d8073b2ac55f04e0f37fc889ff1cf80ff2728dddfd3c089870610b9e0cf0fc",
+          "sha1": "8a09d34dc45b3e19b6c098f7339204fb592d8bc1",
+          "md5": "c038bc387c375180acc82682a37461ed"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "test-utils-resourceloader-linuxarm64-b9030f2-sources.jar",
+          "url": "test-utils-resourceloader-linuxarm64-b9030f2-sources.jar",
+          "size": 4241,
+          "sha512": "284172150658cfb9dae6c2bb10bbd5de382a8193d892540a4de60322cb16b05740a160fc4f827c092194ab0e3983419cb75c9d52eee7cf9cf1ac22b32a8f7d7b",
+          "sha256": "28c33fb0c5429879a7515dfb1ee5400a354f30a17cda3a32c13cec2fd413b7da",
+          "sha1": "e6bc305f912fc8fc1e733215728491f83d594bd4",
+          "md5": "935272aedc89d60202c3ad87a167495a"
+        }
+      ]
+    }
+  ]
+}
