@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/86ec4d6/test-utils-ktor-86ec4d6.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "86ec4d6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-release.aar",
+          "url": "test-utils-ktor-android-86ec4d6.aar",
+          "size": 26434,
+          "sha512": "95f8e4fcc327fcc5c373484af5dd60908b8f4732cd4c19313cc2154d800ede0c18737d5a2f5d465709b8027c3348e7ea886b539e20b13cc0a5bcb50ff815a147",
+          "sha256": "d2eabc190a50ffe15cff7e8892081e5169000c77d3c1356037428e3ce9938ff2",
+          "sha1": "34eda37ed7020d8bc9000e0223249e85aeba57ae",
+          "md5": "d28e3529b4a293e62db599b2fddf5f0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            },
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-release.aar",
+          "url": "test-utils-ktor-android-86ec4d6.aar",
+          "size": 26434,
+          "sha512": "95f8e4fcc327fcc5c373484af5dd60908b8f4732cd4c19313cc2154d800ede0c18737d5a2f5d465709b8027c3348e7ea886b539e20b13cc0a5bcb50ff815a147",
+          "sha256": "d2eabc190a50ffe15cff7e8892081e5169000c77d3c1356037428e3ce9938ff2",
+          "sha1": "34eda37ed7020d8bc9000e0223249e85aeba57ae",
+          "md5": "d28e3529b4a293e62db599b2fddf5f0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-android-86ec4d6-sources.jar",
+          "url": "test-utils-ktor-android-86ec4d6-sources.jar",
+          "size": 2997,
+          "sha512": "84dc2ec6c5cabc393d71bbaa25937a3236780eb31418f5278e26b81e1fd11bbdf00a744a416b04af03c162ad8775cea4ff8791626211afc0beedae0bd6f1863c",
+          "sha256": "c95bf786986c671f2232d4dc7f40121da3e667e4d8596f75a34a1f563358aa9a",
+          "sha1": "ef737e53973fe51da0edf2062fa75abf288b72df",
+          "md5": "1c7463a9af2d50a65fb7739e1dc853e5"
+        }
+      ]
+    }
+  ]
+}

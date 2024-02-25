@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/86ec4d6/test-utils-ktor-86ec4d6.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "86ec4d6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-86ec4d6.jar",
+          "url": "test-utils-ktor-jvm-86ec4d6.jar",
+          "size": 29584,
+          "sha512": "b30cc90aab799aa0595cea06c859850e3f270f1013b3bf359851068b9e4e86021e024878cacd5e75669140be260de9e74db3ac12643dcbf8d5b01d3b80ff9a21",
+          "sha256": "d8cceae28edf0ae5080be520d608dc8e4017025619dda3d5ce1ac7e63a07bc7e",
+          "sha1": "dfca72b193881197ad18f6f43b7f1875ad9c789c",
+          "md5": "7cffee9c6e503cad93b2323e7f3b7f69"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-86ec4d6.jar",
+          "url": "test-utils-ktor-jvm-86ec4d6.jar",
+          "size": 29584,
+          "sha512": "b30cc90aab799aa0595cea06c859850e3f270f1013b3bf359851068b9e4e86021e024878cacd5e75669140be260de9e74db3ac12643dcbf8d5b01d3b80ff9a21",
+          "sha256": "d8cceae28edf0ae5080be520d608dc8e4017025619dda3d5ce1ac7e63a07bc7e",
+          "sha1": "dfca72b193881197ad18f6f43b7f1875ad9c789c",
+          "md5": "7cffee9c6e503cad93b2323e7f3b7f69"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-jvm-86ec4d6-sources.jar",
+          "url": "test-utils-ktor-jvm-86ec4d6-sources.jar",
+          "size": 2997,
+          "sha512": "84dc2ec6c5cabc393d71bbaa25937a3236780eb31418f5278e26b81e1fd11bbdf00a744a416b04af03c162ad8775cea4ff8791626211afc0beedae0bd6f1863c",
+          "sha256": "c95bf786986c671f2232d4dc7f40121da3e667e4d8596f75a34a1f563358aa9a",
+          "sha1": "ef737e53973fe51da0edf2062fa75abf288b72df",
+          "md5": "1c7463a9af2d50a65fb7739e1dc853e5"
+        }
+      ]
+    }
+  ]
+}

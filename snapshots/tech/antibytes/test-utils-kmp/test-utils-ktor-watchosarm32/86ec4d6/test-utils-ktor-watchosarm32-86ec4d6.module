@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/86ec4d6/test-utils-ktor-86ec4d6.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "86ec4d6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor.klib",
+          "url": "test-utils-ktor-watchosarm32-86ec4d6.klib",
+          "size": 18390,
+          "sha512": "805c3be5b3ec621c90ea478e620e273c5a32b18f611c27a97605f648fcb48bdd38c5a6c42012d3e08bf41ad8a179c26d8f0143e1552cb9af5616df31adb860ff",
+          "sha256": "003c36239b99d38a1fb532092d63d1f38bb2437928afd9442771907c1763012b",
+          "sha1": "d6afa27652be64866d750bdbaf0811db60de53ee",
+          "md5": "3de6250d5bf837959c8f20b0d09a31c5"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "test-utils-ktor-watchosarm32-86ec4d6-sources.jar",
+          "url": "test-utils-ktor-watchosarm32-86ec4d6-sources.jar",
+          "size": 2997,
+          "sha512": "84dc2ec6c5cabc393d71bbaa25937a3236780eb31418f5278e26b81e1fd11bbdf00a744a416b04af03c162ad8775cea4ff8791626211afc0beedae0bd6f1863c",
+          "sha256": "c95bf786986c671f2232d4dc7f40121da3e667e4d8596f75a34a1f563358aa9a",
+          "sha1": "ef737e53973fe51da0edf2062fa75abf288b72df",
+          "md5": "1c7463a9af2d50a65fb7739e1dc853e5"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.8"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-watchosarm32-86ec4d6-metadata.jar",
+          "url": "test-utils-ktor-watchosarm32-86ec4d6-metadata.jar",
+          "size": 261,
+          "sha512": "be81090669da4420a0f97fc8bcccad49c470114d1af0afc8b52e56bf1fdabbf2f292b59d5f7310511a6e8c1d3e260e6edeed6cca87f2e14d076bb33210d97ff3",
+          "sha256": "d5827f3a87dceaef3acca4f944be36c0c0f2767933eea7f46ee5fe580aa894fa",
+          "sha1": "b5559fdac68eb26af7f45a6f166e71bd09f8e964",
+          "md5": "3160592eb3a13814ce87123b561f9b8f"
+        }
+      ]
+    }
+  ]
+}
