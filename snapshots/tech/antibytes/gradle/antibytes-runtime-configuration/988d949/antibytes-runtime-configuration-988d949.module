@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-runtime-configuration",
+    "version": "988d949",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-988d949.jar",
+          "url": "antibytes-runtime-configuration-988d949.jar",
+          "size": 20356,
+          "sha512": "5ee050cf310703efaba958736604478c7793426d80e4dba29e5423179eef216505700fa0b24c7ae08afb16a949d03f587d219f12ee12eec5052d6cdb6a5de2a2",
+          "sha256": "261f669f51fcd4712eb3376a2856bdd10c095818746968245cc48184fda81120",
+          "sha1": "3bf37654bae7504058eba008fd013c5fd629da2c",
+          "md5": "d6f94fde62820c13a939ac7e418c6f72"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "988d949"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-988d949.jar",
+          "url": "antibytes-runtime-configuration-988d949.jar",
+          "size": 20356,
+          "sha512": "5ee050cf310703efaba958736604478c7793426d80e4dba29e5423179eef216505700fa0b24c7ae08afb16a949d03f587d219f12ee12eec5052d6cdb6a5de2a2",
+          "sha256": "261f669f51fcd4712eb3376a2856bdd10c095818746968245cc48184fda81120",
+          "sha1": "3bf37654bae7504058eba008fd013c5fd629da2c",
+          "md5": "d6f94fde62820c13a939ac7e418c6f72"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-988d949-javadoc.jar",
+          "url": "antibytes-runtime-configuration-988d949-javadoc.jar",
+          "size": 261,
+          "sha512": "4a16706e64d0cbdcf536535cffa7a7fc3ca2690e2dabea9faf0b1b5a0b197bb3c735d849212571daba6bdb729cf3b73a4218ad39af23ce846251be037971da08",
+          "sha256": "95fd09ce9f80f7c1e170313ce3d39514d3d04158e91646e36de594add297aae6",
+          "sha1": "04d6a19b581b7eef30346e9dc31ce83039606b39",
+          "md5": "38c57eaccf0fee41207ebac0fc13adf8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-runtime-configuration-988d949-sources.jar",
+          "url": "antibytes-runtime-configuration-988d949-sources.jar",
+          "size": 6059,
+          "sha512": "9c40704fd4b767842c9014f485e859c35103626778607f74bd3c5acd8a13bfc7042677cc4416c3001f56e891c177dc612d0e8bd41b191cd24f13394152c336d7",
+          "sha256": "8cf6918f8b364802ab7a8b537bda8dc457e4289533a336ca072fa9c4bce51bca",
+          "sha1": "bfc9d31eceaf7a8c2790a0b371c7deca2d0737c2",
+          "md5": "d9504793cb854ab59ccae906a49abbe8"
+        }
+      ]
+    }
+  ]
+}
