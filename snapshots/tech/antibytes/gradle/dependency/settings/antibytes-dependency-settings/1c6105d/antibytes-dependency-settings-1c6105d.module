@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.settings",
+    "module": "antibytes-dependency-settings",
+    "version": "1c6105d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "1c6105d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-1c6105d.jar",
+          "url": "antibytes-dependency-settings-1c6105d.jar",
+          "size": 17997,
+          "sha512": "13376a69da934eac5440be2c54b8ca113fee1723ec8b7fef2105085f22e71b14a2d34164d0becbe0b604479951b469531a36a144f1e67484b6fd39b909303005",
+          "sha256": "7fc067afbd3f0a7e64104d023a5d8087645092d17cf99cdad058eba1d7a75b05",
+          "sha1": "476e4d587aee0ddb193b13ccc76ceee793388b26",
+          "md5": "747243b2bf2f0eab6c2b222e4a9278d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.dependency.node",
+          "module": "antibytes-dependency-node",
+          "version": {
+            "requires": "1c6105d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-1c6105d.jar",
+          "url": "antibytes-dependency-settings-1c6105d.jar",
+          "size": 17997,
+          "sha512": "13376a69da934eac5440be2c54b8ca113fee1723ec8b7fef2105085f22e71b14a2d34164d0becbe0b604479951b469531a36a144f1e67484b6fd39b909303005",
+          "sha256": "7fc067afbd3f0a7e64104d023a5d8087645092d17cf99cdad058eba1d7a75b05",
+          "sha1": "476e4d587aee0ddb193b13ccc76ceee793388b26",
+          "md5": "747243b2bf2f0eab6c2b222e4a9278d6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-1c6105d-javadoc.jar",
+          "url": "antibytes-dependency-settings-1c6105d-javadoc.jar",
+          "size": 261,
+          "sha512": "09b2538b4eac9697cb086e7b2ca58e1e2a8046256414160f38f78ed69236838cacc62db2e77c1bf15914ac47b9238506c054c9f62ae57aa5e53906206f824d83",
+          "sha256": "8a09cbf06fca9b6c2def6b894c2bf6c47be333148ea2d77696ac18b161ac50b0",
+          "sha1": "e99fce26b2995f506a78acade908eff2b70fced8",
+          "md5": "393d1ee7bd5c55844bd31c6528ae9a92"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-settings-1c6105d-sources.jar",
+          "url": "antibytes-dependency-settings-1c6105d-sources.jar",
+          "size": 3875,
+          "sha512": "24d633bae97055077a0e091d66cfafedb12c91e2a0adb3cfc681733b7e3442cb406c31cf26574f041368098f66dc0276932117ccab66427b2d9a73d7bd6e1991",
+          "sha256": "b770b7adafc8bef3a76ae0a653a3b48464d0fdb00ec355883ce7384ac0205a16",
+          "sha1": "1380debea874bcd62fd09f30822b6a729fdc6322",
+          "md5": "7c09d8f009a787fcf2540dc422110c39"
+        }
+      ]
+    }
+  ]
+}
