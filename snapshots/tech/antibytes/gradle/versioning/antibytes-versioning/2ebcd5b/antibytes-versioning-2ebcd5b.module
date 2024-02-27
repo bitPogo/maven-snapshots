@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "2ebcd5b",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-2ebcd5b.jar",
+          "url": "antibytes-versioning-2ebcd5b.jar",
+          "size": 24286,
+          "sha512": "c451eaf7f66e72d9bc40b3eec76858958d1311414fc26e1b4e9ca67df21e7ee445bb48cc33c6c1dcd2927dee4be30ac8950407fa0332c717fa70b8090bc9e16c",
+          "sha256": "307c00ea04dd4fabebff3689bfba76eabd0981ffa1442ed2621ec03aa556de7b",
+          "sha1": "492d844060b139be0f4e7464ec1f106c180d7f9c",
+          "md5": "57347f535c1e8e0942a40c5f37896fad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.lordcodes.turtle",
+          "module": "turtle",
+          "version": {
+            "requires": "0.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-2ebcd5b.jar",
+          "url": "antibytes-versioning-2ebcd5b.jar",
+          "size": 24286,
+          "sha512": "c451eaf7f66e72d9bc40b3eec76858958d1311414fc26e1b4e9ca67df21e7ee445bb48cc33c6c1dcd2927dee4be30ac8950407fa0332c717fa70b8090bc9e16c",
+          "sha256": "307c00ea04dd4fabebff3689bfba76eabd0981ffa1442ed2621ec03aa556de7b",
+          "sha1": "492d844060b139be0f4e7464ec1f106c180d7f9c",
+          "md5": "57347f535c1e8e0942a40c5f37896fad"
+        }
+      ]
+    }
+  ]
+}
