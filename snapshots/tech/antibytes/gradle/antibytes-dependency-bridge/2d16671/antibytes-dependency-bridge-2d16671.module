@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-dependency-bridge",
+    "version": "2d16671",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2d16671.jar",
+          "url": "antibytes-dependency-bridge-2d16671.jar",
+          "size": 39856,
+          "sha512": "78c0e9e35e0e97c1124c4d29de3c3d22dc103ef65edb9b4f083ac6b6aa918e9c6734807868cd5c314ed7ca581a090785c31b40d289341aa9e55873f5ed51e230",
+          "sha256": "ea13ca6088aa76b8a9cd881a5b0371a82d6fa3078ea947b7236211f63abc000b",
+          "sha1": "29b255853b54ace800087501782d3dc796392b3e",
+          "md5": "1dfe92c036647cb8255fa756710bf5f9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "2d16671"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2d16671.jar",
+          "url": "antibytes-dependency-bridge-2d16671.jar",
+          "size": 39856,
+          "sha512": "78c0e9e35e0e97c1124c4d29de3c3d22dc103ef65edb9b4f083ac6b6aa918e9c6734807868cd5c314ed7ca581a090785c31b40d289341aa9e55873f5ed51e230",
+          "sha256": "ea13ca6088aa76b8a9cd881a5b0371a82d6fa3078ea947b7236211f63abc000b",
+          "sha1": "29b255853b54ace800087501782d3dc796392b3e",
+          "md5": "1dfe92c036647cb8255fa756710bf5f9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2d16671-javadoc.jar",
+          "url": "antibytes-dependency-bridge-2d16671-javadoc.jar",
+          "size": 261,
+          "sha512": "0031d8ee644b337ff22e30060679019e1620b24e4ae5f36925876add9e0c9eaeab31a2e8403b2256120089bee0dc35952477b93e4212f501d11b7d0f2cf9764e",
+          "sha256": "68576e78187076af5bdf667ddccefeb1a2b3bf15ffe1b8dcba6703de2955aa80",
+          "sha1": "d783e6a054f66e6c1d209423051568b295fee717",
+          "md5": "2406330b001bbea6219f9dacacf03242"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-bridge-2d16671-sources.jar",
+          "url": "antibytes-dependency-bridge-2d16671-sources.jar",
+          "size": 5989,
+          "sha512": "64ebc0873c7194b5e44f1ae5818808433821d05805cc3d737cf098aa3fb2fa343267afc1a543aaf84c899c632e214eb21f69c45d38bdd465cf7333302bbecf34",
+          "sha256": "76dcf7a874aa995442bf1ae1244155ba4c0be6d688e29df6543721375c140783",
+          "sha1": "79df9bc50a8a790b68f413f79b4140b34050da64",
+          "md5": "1ad3064b4d5e1c7c9ef95b1dd47f1928"
+        }
+      ]
+    }
+  ]
+}
