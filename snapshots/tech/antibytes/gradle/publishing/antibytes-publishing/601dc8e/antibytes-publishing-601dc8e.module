@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.publishing",
+    "module": "antibytes-publishing",
+    "version": "601dc8e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "601dc8e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-601dc8e.jar",
+          "url": "antibytes-publishing-601dc8e.jar",
+          "size": 141292,
+          "sha512": "932f0fd3b25464551a4478506633be58c646215afdb531dcc40b41b3478738512974d663ee8641546098981bc98d02c1b03912108eae022c812ef0b1fc496d63",
+          "sha256": "0ebafa35a40e5de7fa21fe6b515a9afb74dbc8208cbb8935e6cdd8049b6d30bb",
+          "sha1": "4a99af3a440e5cb0f24762f9e5f6e9218dfbda06",
+          "md5": "f0f62df803251818559ced220deb314f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "6.8.0.202311291450-r"
+          }
+        },
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle",
+          "module": "antibytes-gradle-utils",
+          "version": {
+            "requires": "601dc8e"
+          }
+        },
+        {
+          "group": "tech.antibytes.gradle.versioning",
+          "module": "antibytes-versioning",
+          "version": {
+            "requires": "601dc8e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-publishing-601dc8e.jar",
+          "url": "antibytes-publishing-601dc8e.jar",
+          "size": 141292,
+          "sha512": "932f0fd3b25464551a4478506633be58c646215afdb531dcc40b41b3478738512974d663ee8641546098981bc98d02c1b03912108eae022c812ef0b1fc496d63",
+          "sha256": "0ebafa35a40e5de7fa21fe6b515a9afb74dbc8208cbb8935e6cdd8049b6d30bb",
+          "sha1": "4a99af3a440e5cb0f24762f9e5f6e9218dfbda06",
+          "md5": "f0f62df803251818559ced220deb314f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-601dc8e-javadoc.jar",
+          "url": "antibytes-publishing-601dc8e-javadoc.jar",
+          "size": 261,
+          "sha512": "acb331621f44b3b7457f46ccd49cfc7da5f5e324541989cefc0f5fc0e75fbab2e7aa77ea1407db8d5cf9c534ccadd71c7e0797dcdbd53a2e9ece851bcdd261d1",
+          "sha256": "042a51e8c59202fb2542993d073badbda802cbab53ee3dd65aabfd19dd19ac51",
+          "sha1": "38a8d83704f9320bde8d80a1da2ab5c1373c98f0",
+          "md5": "c6fffb7243d81569cee44b52f7e8d10e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "antibytes-publishing-601dc8e-sources.jar",
+          "url": "antibytes-publishing-601dc8e-sources.jar",
+          "size": 25566,
+          "sha512": "9c67889577746b1c3773e908415d1c8188f46f6c9cedb417827065f31cb059cf5ac1a1e4f5e09adea42c8ba16334627b1139069fd5da5a2508fa48fa2e66b34b",
+          "sha256": "8166e798d25c3a1c9e1ba334f247d308e6ed367b3ae803fa824d8a82b71a6d85",
+          "sha1": "f5dafc71738b27c88304ece2f648f1185bf3c7f8",
+          "md5": "d68b06211593bad94cc2deb050f7d502"
+        }
+      ]
+    }
+  ]
+}
