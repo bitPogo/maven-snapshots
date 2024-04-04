@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.4.0-SNAPSHOT/core-0.4.0-SNAPSHOT.module",
+    "group": "tech.antibytes.kfixture",
+    "module": "core",
+    "version": "0.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-release.aar",
+          "url": "core-android-0.4.0-SNAPSHOT.aar",
+          "size": 261377,
+          "sha512": "8f754cab670ab6bcd07b95442202e583e5d8cb2973ab2260226648df5b0680369bd1c07fc504b89bd4021c513301874add48b2bba7384d8768c1119d09cd1d83",
+          "sha256": "aaec06bc1aacd2749b3b7f73c91c21fbb4bd0feb15d64cc33f64cdda26f7734f",
+          "sha1": "6c4cc9766a02ce9d9ef54744e70253f5d9cec895",
+          "md5": "f071081b321003c094dd48a28d58ee22"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-release.aar",
+          "url": "core-android-0.4.0-SNAPSHOT.aar",
+          "size": 261377,
+          "sha512": "8f754cab670ab6bcd07b95442202e583e5d8cb2973ab2260226648df5b0680369bd1c07fc504b89bd4021c513301874add48b2bba7384d8768c1119d09cd1d83",
+          "sha256": "aaec06bc1aacd2749b3b7f73c91c21fbb4bd0feb15d64cc33f64cdda26f7734f",
+          "sha1": "6c4cc9766a02ce9d9ef54744e70253f5d9cec895",
+          "md5": "f071081b321003c094dd48a28d58ee22"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-android-0.4.0-SNAPSHOT-sources.jar",
+          "url": "core-android-0.4.0-SNAPSHOT-sources.jar",
+          "size": 49394,
+          "sha512": "711df2c112f015ace9850c90453526e0674f97f6887609b6ccf07bbf6d77e948f25509e78a330e2c0c87bb4e87cc94bf6f610613ddb6886cc06a15335e3d06b1",
+          "sha256": "4a73bea39591be8091d2c33efccf8a6b35307b408ea16dcf724eb5439eca4d6a",
+          "sha1": "6a31b8d144d06363577cc12d203efa171546788a",
+          "md5": "3142c814affa8d3166ec7d4961a1cd1d"
+        }
+      ]
+    }
+  ]
+}
